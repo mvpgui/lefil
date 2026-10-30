@@ -66,15 +66,26 @@ export function parseRss(xml, ticker) {
   return items;
 }
 
+const DIAG = {};
 async function fromGoogle(x) {
-  try {
-    const r = await fetch(gnewsUrl(x.q, x.lang), {
-      headers: { "User-Agent": "Mozilla/5.0 (LeFil personal news reader)" },
-      cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true },
-    });
-    if (!r.ok) return [];
-    return parseRss(await r.text(), x.t);
-  } catch { return []; }
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const r = await fetch(gnewsUrl(x.q, x.lang), {
+        headers: { "User-Agent": "Mozilla/5.0 (LeFil personal news reader)", "Accept": "application/rss+xml,text/xml" },
+        cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true },
+      });
+      DIAG[x.t] = r.status;
+      if (r.ok) return parseRss(await r.text(), x.t);
+    } catch (e) { DIAG[x.t] = String(e).slice(0, 60); }
+    await new Promise((res) => setTimeout(res, 400));
+  }
+  return [];
+}
+// Lance les requêtes par petits groupes pour ne pas être bridé par Google News
+async function inBatches(list, size, fn) {
+  const out = [];
+  for (let i = 0; i < list.length; i += size) out.push(...(await Promise.all(list.slice(i, i + size).map(fn))));
+  return out;
 }
 
 async function fromFinnhub(x, key) {
@@ -99,10 +110,15 @@ function norm(s) { return s.toLowerCase().replace(/[^a-z0-9àâçéèêëîïô�
 export async function onRequestGet({ request, env, waitUntil }) {
   const cache = caches.default;
   const cacheKey = new Request(new URL("/api/news?v=1", request.url).toString());
-  const hit = await cache.match(cacheKey);
+  const hit = new URL(request.url).searchParams.has("debug") ? null : await cache.match(cacheKey);
   if (hit) return hit;
 
-  const lists = await Promise.all(TICKERS.flatMap((x) => [fromGoogle(x), fromFinnhub(x, env.FINNHUB_KEY)]));
+  const debug = new URL(request.url).searchParams.has("debug");
+  const [g, f] = await Promise.all([
+    inBatches(TICKERS, 4, fromGoogle),
+    Promise.all(TICKERS.map((x) => fromFinnhub(x, env.FINNHUB_KEY))),
+  ]);
+  const lists = [...g, ...f];
   const cutoff = Date.now() - MAX_AGE_H * 3600e3;
   const seen = new Set();
   const perTicker = {};
@@ -119,6 +135,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
     .map((n) => ({ ...n, url: /^https?:\/\//.test(n.url) ? n.url : "" }))
     .filter((n) => n.url);
 
+  if (debug) return new Response(JSON.stringify({ diag: DIAG, finnhub: !!env.FINNHUB_KEY, n: items.length }), { headers: { "Content-Type": "application/json" } });
   const res = new Response(JSON.stringify({ generated: Date.now(), items }), {
     headers: {
       "Content-Type": "application/json; charset=utf-8",
