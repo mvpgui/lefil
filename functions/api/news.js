@@ -1,6 +1,6 @@
 // Cloudflare Pages Function : GET /api/news
 // Agrège les derniers titres d'actualité des 18 valeurs.
-// Sources : Google News (RSS public, sans clé) + Finnhub (facultatif, si la variable FINNHUB_KEY est définie).
+// Sources : Google News et Yahoo Finance (RSS publics, sans clé) + Finnhub (facultatif, si la variable FINNHUB_KEY est définie).
 // Résultat mis en cache 5 minutes au niveau de Cloudflare pour rester rapide et sobre.
 
 const TICKERS = [
@@ -23,6 +23,8 @@ const TICKERS = [
   { t: "AMUN",  q: '"Amundi"',                             lang: "fr" },
   { t: "ASML",  q: '"ASML"',                               lang: "en", fh: "ASML" },
 ];
+
+const YAHOO = {"SPCX": "SPCX", "TE": "TE", "IREN": "IREN", "ASTI": "ASTI", "ASTS": "ASTS", "HLIT": "HLIT", "POET": "POET", "RDW": "RDW", "RKLB": "RKLB", "PLTR": "PLTR", "RDDT": "RDDT", "ONDS": "ONDS", "ALRIB": "ALRIB.PA", "MC": "MC.PA", "FDJU": "FDJU.PA", "ADYEN": "ADYEN.AS", "AMUN": "AMUN.PA", "ASML": "ASML"};
 
 const MAX_AGE_H = 72;      // on garde 3 jours d'actualité
 const PER_TICKER = 6;      // titres max par valeur
@@ -67,6 +69,29 @@ export function parseRss(xml, ticker) {
 }
 
 const DIAG = {};
+// Dernier résultat valable par source et par valeur, réutilisé si la source répond mal
+async function lastGood(key, items, base) {
+  const req = new Request(base + "/__lastgood/" + key);
+  if (items && items.length) {
+    await caches.default.put(req, new Response(JSON.stringify(items), { headers: { "Cache-Control": "public, max-age=43200" } }));
+    return items;
+  }
+  const hit = await caches.default.match(req);
+  return hit ? hit.json() : [];
+}
+
+async function fromYahoo(x) {
+  const sym = YAHOO[x.t]; if (!sym) return [];
+  const fr = /\.(PA|AS)$/.test(sym);
+  const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${encodeURIComponent(sym)}&region=${fr ? "FR" : "US"}&lang=${fr ? "fr-FR" : "en-US"}`;
+  try {
+    const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (LeFil personal news reader)" }, cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true } });
+    DIAG["Y_" + x.t] = r.status;
+    if (!r.ok) return [];
+    return parseRss(await r.text(), x.t).map((n) => ({ ...n, source: n.source === "Google News" ? "Yahoo Finance" : n.source }));
+  } catch (e) { DIAG["Y_" + x.t] = String(e).slice(0, 60); return []; }
+}
+
 async function fromGoogle(x) {
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
@@ -114,11 +139,13 @@ export async function onRequestGet({ request, env, waitUntil }) {
   if (hit) return hit;
 
   const debug = new URL(request.url).searchParams.has("debug");
-  const [g, f] = await Promise.all([
-    inBatches(TICKERS, 4, fromGoogle),
+  const base = new URL(request.url).origin;
+  const [g, y, f] = await Promise.all([
+    inBatches(TICKERS, 3, (x) => fromGoogle(x).then((r) => lastGood("g/" + x.t, r, base))),
+    inBatches(TICKERS, 6, (x) => fromYahoo(x).then((r) => lastGood("y/" + x.t, r, base))),
     Promise.all(TICKERS.map((x) => fromFinnhub(x, env.FINNHUB_KEY))),
   ]);
-  const lists = [...g, ...f];
+  const lists = [...g, ...y, ...f];
   const cutoff = Date.now() - MAX_AGE_H * 3600e3;
   const seen = new Set();
   const perTicker = {};
@@ -135,7 +162,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
     .map((n) => ({ ...n, url: /^https?:\/\//.test(n.url) ? n.url : "" }))
     .filter((n) => n.url);
 
-  if (debug) return new Response(JSON.stringify({ diag: DIAG, finnhub: !!env.FINNHUB_KEY, n: items.length }), { headers: { "Content-Type": "application/json" } });
+  if (debug) { const c = {}; items.forEach((n) => (c[n.t] = (c[n.t] || 0) + 1)); return new Response(JSON.stringify({ diag: DIAG, finnhub: !!env.FINNHUB_KEY, n: items.length, perTicker: c }), { headers: { "Content-Type": "application/json" } }); }
   const res = new Response(JSON.stringify({ generated: Date.now(), items }), {
     headers: {
       "Content-Type": "application/json; charset=utf-8",
