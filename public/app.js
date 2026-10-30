@@ -1,7 +1,7 @@
 (function(){
   var M=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
   var TICKERS=['SPCX','TE','IREN','ASTI','ASTS','HLIT','POET','RDW','RKLB','PLTR','RDDT','ONDS','ALRIB','MC','FDJU','ADYEN','AMUN','ASML'];
-  var state={filter:'ALL',sort:'score',data:null,live:[],open:{},liveShown:8};
+  var state={filter:'ALL',sort:'score',data:null,live:[],liveLoaded:false,open:{},liveShown:8};
   try{state.filter=localStorage.getItem('lefil.filter')||'ALL';state.sort=localStorage.getItem('lefil.sort')||'score'}catch(e){}
 
   function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
@@ -28,6 +28,7 @@
   /* ---------- En direct ---------- */
   function renderLive(){
     var el=document.getElementById('live');
+    if(!state.liveLoaded){el.innerHTML='<div class="note">Chargement des dernières actualités…</div>';return}
     var list=state.live.filter(function(n){return state.filter==='ALL'||n.t===state.filter});
     if(!list.length){el.innerHTML='<div class="note">Pas de nouveau titre sur les 3 derniers jours.</div>';return}
     var shown=list.slice(0,state.liveShown);
@@ -41,9 +42,9 @@
   }
   function loadLive(){
     fetch('/api/news',{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
-      state.live=j.items||[];renderLive();
+      state.live=j.items||[];state.liveLoaded=true;renderLive();
       document.getElementById('liveUpd').textContent='Direct · actualisé '+new Date(j.generated).toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
-    }).catch(function(){document.getElementById('live').innerHTML='<div class="note">Fil en direct indisponible pour le moment.</div>'});
+    }).catch(function(){if(!state.liveLoaded)document.getElementById('live').innerHTML='<div class="note">Fil en direct indisponible pour le moment.</div>'});
   }
 
   /* ---------- Analyses ---------- */

@@ -78,7 +78,7 @@ async function fromYahoo(x) {
   const fr = /\.(PA|AS)$/.test(sym);
   const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${encodeURIComponent(sym)}&region=${fr ? "FR" : "US"}&lang=${fr ? "fr-FR" : "en-US"}`;
   try {
-    const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (LeFil personal news reader)" }, cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true } });
+    const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (LeFil personal news reader)" }, cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true }, signal: AbortSignal.timeout(5000) });
     DIAG["Y_" + x.t] = r.status;
     if (!r.ok) return [];
     return parseRss(await r.text(), x.t).map((n) => ({ ...n, source: n.source === "Google News" ? "Yahoo Finance" : n.source }));
@@ -90,6 +90,7 @@ async function fromGoogle(x) {
     const r = await fetch(gnewsUrl(x.q, x.lang), {
       headers: { "User-Agent": "Mozilla/5.0 (LeFil personal news reader)", "Accept": "application/rss+xml,text/xml" },
       cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true },
+      signal: AbortSignal.timeout(5000),
     });
     DIAG[x.t] = r.status;
     if (r.ok) return parseRss(await r.text(), x.t);
@@ -110,7 +111,7 @@ async function fromFinnhub(x, key) {
   try {
     const r = await fetch(
       `https://finnhub.io/api/v1/company-news?symbol=${x.fh}&from=${d(from)}&to=${d(to)}&token=${key}`,
-      { cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true } }
+      { cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true }, signal: AbortSignal.timeout(5000) }
     );
     if (!r.ok) return [];
     const j = await r.json();
@@ -134,8 +135,8 @@ export async function onRequestGet({ request, env, waitUntil }) {
   const lgHit = await cache.match(lgReq);
   const prev = lgHit ? await lgHit.json() : {};
   const [g, y, f] = await Promise.all([
-    inBatches(TICKERS, 3, fromGoogle),
-    inBatches(TICKERS.filter((x) => !(hasFh && x.fh)), 6, fromYahoo),
+    inBatches(TICKERS, 9, fromGoogle),
+    inBatches(TICKERS.filter((x) => !(hasFh && x.fh)), 18, fromYahoo),
     Promise.all(TICKERS.map((x) => fromFinnhub(x, env.FINNHUB_KEY))),
   ]);
   // Remplace chaque source en échec par son dernier résultat valable
