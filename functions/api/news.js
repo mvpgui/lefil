@@ -69,17 +69,10 @@ export function parseRss(xml, ticker) {
 }
 
 const DIAG = {};
-// Dernier résultat valable par source et par valeur, réutilisé si la source répond mal
-async function lastGood(key, items, base) {
-  const req = new Request(base + "/__lastgood/" + key);
-  if (items && items.length) {
-    await caches.default.put(req, new Response(JSON.stringify(items), { headers: { "Cache-Control": "public, max-age=43200" } }));
-    return items;
-  }
-  const hit = await caches.default.match(req);
-  return hit ? hit.json() : [];
-}
-
+// Cloudflare limite le nombre de requêtes sortantes par appel (50 en offre gratuite) :
+// Google (18) + Yahoo (18 ou 6) + Finnhub (0 ou 12) + 4 accès au cache restent en dessous.
+// Le dernier résultat valable de chaque source est gardé dans UNE seule entrée de cache.
+const LASTGOOD = "/__lastgood/v1";
 async function fromYahoo(x) {
   const sym = YAHOO[x.t]; if (!sym) return [];
   const fr = /\.(PA|AS)$/.test(sym);
@@ -93,17 +86,14 @@ async function fromYahoo(x) {
 }
 
 async function fromGoogle(x) {
-  for (let attempt = 0; attempt < 2; attempt++) {
-    try {
-      const r = await fetch(gnewsUrl(x.q, x.lang), {
-        headers: { "User-Agent": "Mozilla/5.0 (LeFil personal news reader)", "Accept": "application/rss+xml,text/xml" },
-        cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true },
-      });
-      DIAG[x.t] = r.status;
-      if (r.ok) return parseRss(await r.text(), x.t);
-    } catch (e) { DIAG[x.t] = String(e).slice(0, 60); }
-    await new Promise((res) => setTimeout(res, 400));
-  }
+  try {
+    const r = await fetch(gnewsUrl(x.q, x.lang), {
+      headers: { "User-Agent": "Mozilla/5.0 (LeFil personal news reader)", "Accept": "application/rss+xml,text/xml" },
+      cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true },
+    });
+    DIAG[x.t] = r.status;
+    if (r.ok) return parseRss(await r.text(), x.t);
+  } catch (e) { DIAG[x.t] = String(e).slice(0, 60); }
   return [];
 }
 // Lance les requêtes par petits groupes pour ne pas être bridé par Google News
@@ -139,13 +129,25 @@ export async function onRequestGet({ request, env, waitUntil }) {
   if (hit) return hit;
 
   const debug = new URL(request.url).searchParams.has("debug");
-  const base = new URL(request.url).origin;
+  const hasFh = !!env.FINNHUB_KEY;
+  const lgReq = new Request(new URL(LASTGOOD, request.url).toString());
+  const lgHit = await cache.match(lgReq);
+  const prev = lgHit ? await lgHit.json() : {};
   const [g, y, f] = await Promise.all([
-    inBatches(TICKERS, 3, (x) => fromGoogle(x).then((r) => lastGood("g/" + x.t, r, base))),
-    inBatches(TICKERS, 6, (x) => fromYahoo(x).then((r) => lastGood("y/" + x.t, r, base))),
+    inBatches(TICKERS, 3, fromGoogle),
+    inBatches(TICKERS.filter((x) => !(hasFh && x.fh)), 6, fromYahoo),
     Promise.all(TICKERS.map((x) => fromFinnhub(x, env.FINNHUB_KEY))),
   ]);
-  const lists = [...g, ...y, ...f];
+  // Remplace chaque source en échec par son dernier résultat valable
+  const store = {};
+  const keep = (key, items) => { const v = items.length ? items : (prev[key] || []); if (v.length) store[key] = v; return v; };
+  const yT = TICKERS.filter((x) => !(hasFh && x.fh));
+  const lists = [
+    ...g.map((r, i) => keep("g/" + TICKERS[i].t, r)),
+    ...y.map((r, i) => keep("y/" + yT[i].t, r)),
+    ...f,
+  ];
+  waitUntil(cache.put(lgReq, new Response(JSON.stringify(store), { headers: { "Cache-Control": "public, max-age=86400" } })));
   const cutoff = Date.now() - MAX_AGE_H * 3600e3;
   const seen = new Set();
   const perTicker = {};
