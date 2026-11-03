@@ -1,16 +1,17 @@
 {
-  "updated": "2026-11-03T08:45:00+01:00",
-  "updated_label": "Mardi 3 novembre 2026, 8h45",
-  "quotes_note": "Clôtures du 02/11 · pas du temps réel",
+  "updated": "2026-11-03T22:40:00+01:00",
+  "updated_label": "Mardi 3 novembre 2026, 22h40",
+  "quotes_note": "Clôtures du 03/11 · pas du temps réel",
   "quotes": [
     {
       "t": "SPCX",
       "name": "SpaceX",
-      "price": 136.37,
-      "chg": 1.22,
+      "price": 140.99,
+      "chg": 3.39,
       "cur": "$",
-      "asof": "02/11",
-      "approx": true
+      "asof": "03/11",
+      "approx": true,
+      "note": "relevé en séance, clôture non vérifiée"
     },
     {
       "t": "TE",
@@ -43,19 +44,22 @@
     {
       "t": "ASTS",
       "name": "AST SpaceMobile",
-      "price": 36.33,
-      "chg": -11.33,
+      "price": 37.63,
+      "chg": 3.58,
       "cur": "$",
-      "asof": "02/11"
+      "asof": "03/11",
+      "approx": true,
+      "note": "relevé en séance, clôture non vérifiée"
     },
     {
       "t": "HLIT",
       "name": "Harmonic",
-      "price": 10.19,
-      "chg": -0.39,
+      "price": 10.31,
+      "chg": 1.18,
       "cur": "$",
-      "asof": "02/11",
-      "note": "≈ +17 % après-Bourse le 02/11 après les résultats"
+      "asof": "03/11",
+      "note": "ouverture à 11,89 $ (+17 %) puis repli ; clôture non vérifiée",
+      "approx": true
     },
     {
       "t": "POET",
@@ -78,19 +82,22 @@
     {
       "t": "RKLB",
       "name": "Rocket Lab",
-      "price": 52.07,
-      "chg": -4.86,
+      "price": 54.42,
+      "chg": 4.51,
       "cur": "$",
-      "asof": "02/11"
+      "asof": "03/11",
+      "approx": true,
+      "note": "relevé en séance, clôture non vérifiée"
     },
     {
       "t": "PLTR",
       "name": "Palantir",
-      "price": 178.34,
-      "chg": -3.13,
+      "price": 169.47,
+      "chg": -4.98,
       "cur": "$",
-      "asof": "02/11",
-      "note": "≈ -3 % après-Bourse le 02/11 après les résultats"
+      "asof": "03/11",
+      "note": "relevé en séance (16h30 heure de Paris), clôture non vérifiée",
+      "approx": true
     },
     {
       "t": "RDDT",
@@ -121,11 +128,10 @@
     {
       "t": "MC",
       "name": "LVMH",
-      "price": 383.85,
-      "chg": -0.3,
+      "price": 401.5,
+      "chg": 1.99,
       "cur": "€",
-      "asof": "29/10",
-      "approx": true
+      "asof": "03/11"
     },
     {
       "t": "FDJU",
@@ -186,6 +192,11 @@
       "label": "Résultats trimestriels"
     },
     {
+      "date": "2026-11-09",
+      "t": "RKLB",
+      "label": "Échéance FCC (réponses) dans le dossier de rachat d'Iridium"
+    },
+    {
       "date": "2026-11-10",
       "t": "ASTS",
       "label": "Résultats T3 (attendus la semaine du 9 novembre, date à confirmer)"
@@ -224,12 +235,12 @@
       ],
       "score": 5,
       "impact": "mix",
-      "date": "2026-11-02",
-      "title": "Palantir : chiffre d'affaires quasi doublé et prévision relevée, mais le titre recule encore",
-      "source": "Palantir (communiqué SEC) · Yahoo Finance · BigGo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-raises-2026-revenue-outlook-214723644.html",
-      "summary": "Palantir a publié lundi soir un troisième trimestre spectaculaire. Les revenus atteignent 2,31 milliards de dollars, en hausse de 96 % sur un an et de 20 % par rapport au trimestre précédent : c'est la première fois que le groupe dépasse les 2 milliards sur trois mois, et le consensus (environ 2,18 Md$) est largement battu. Fait marquant, l'activité commerciale américaine (984 M$, +148 %) dépasse pour la première fois les contrats du gouvernement américain (953 M$). La rentabilité suit : marge opérationnelle ajustée de 62 %, bénéfice net de 1,13 Md$ et bénéfice ajusté de 0,44 $ par action, contre 0,41 $ attendu. La direction relève sa prévision annuelle à environ 8,53 Md$ de revenus (contre 8,16 Md$ auparavant) et vise plus de 3,56 Md$ dans le commercial américain. Pour le quatrième trimestre, elle annonce environ 2,65 Md$, au-dessus des 2,46 Md$ attendus, mais avec une croissance séquentielle plus modeste. Le nombre de gros contrats signés recule aussi légèrement (2,9 Md$ contre 3,4 Md$ au trimestre précédent). Résultat : l'action, qui avait déjà cédé 3,1 % en séance à 178,34 $, perdait encore environ 3 % après la clôture. La valorisation reste le point de friction.",
-      "why": "Les chiffres confirment l'accélération, mais le marché paie déjà très cher cette croissance. Surveille la réaction de la séance de mardi et le rythme des signatures de contrats, qui a ralenti ce trimestre."
+      "date": "2026-11-03",
+      "title": "Palantir : le marché sanctionne le ralentissement des signatures, les analystes relèvent pourtant leurs objectifs",
+      "source": "Palantir (communiqué SEC) · TipRanks · The Crypto Basic · MarketBeat",
+      "url": "https://www.tipranks.com/news/why-palantir-stock-fell-despite-an-earnings-beat-and-why-morgan-stanley-raised-its-price-target",
+      "summary": "Les chiffres du troisième trimestre étaient pourtant très bons : 2,31 Md$ de revenus (+96 % sur un an), un bénéfice ajusté de 0,44 $ par action au-dessus des attentes, une marge opérationnelle ajustée proche de 62 % et une prévision annuelle relevée à environ 8,53 Md$ (contre 8,16 Md$). Le quatrième trimestre est attendu vers 2,65 Md$, bien au-dessus du consensus de 2,46 Md$. Mais mardi, le titre a reculé d'environ 5 % en séance, autour de 169-170 $, après une cinquième baisse d'affilée lundi. Le marché s'est focalisé sur les indicateurs avancés : la valeur totale des contrats signés n'a progressé que de 6 % sur un an (2,92 Md$), contre +49 % au trimestre précédent, et seulement de 11 % dans le commercial américain, après +153 %. Les engagements restant à facturer à long terme reculent légèrement (2,74 Md$ contre 2,81 Md$). La direction explique que plusieurs gros contrats d'IA souveraine ont des durées plus courtes que d'habitude. Côté analystes, l'accueil reste favorable : Morgan Stanley passe son objectif de 205 à 233 $ (neutre), Piper Sandler à 235 $, DA Davidson confirme l'achat à 250 $, comme Truist, et UBS relève aussi sa cible.",
+      "why": "La croissance des revenus n'est pas en cause, c'est la visibilité future qui est questionnée. Le prochain point clé sera la valeur des contrats signés au quatrième trimestre : un rebond rassurerait, une nouvelle stagnation pèserait sur une valorisation très élevée."
     },
     {
       "id": "hlit-q3-2026",
@@ -237,13 +248,13 @@
         "HLIT"
       ],
       "score": 5,
-      "impact": "pos",
-      "date": "2026-11-02",
-      "title": "Harmonic : chiffre d'affaires +64 %, objectifs relevés, le titre bondit de 17 % après la clôture",
-      "source": "Harmonic (communiqué SEC) · Investing.com",
-      "url": "https://www.sec.gov/Archives/edgar/data/0000851310/000119312526443647/hlit-ex99_1.htm",
-      "summary": "Pour son premier trimestre complet en tant que pur acteur du haut débit (la branche vidéo a été cédée à MediaKind en juin pour environ 138 M$), Harmonic a publié des chiffres nettement au-dessus des attentes. Les revenus atteignent 148,8 M$, en hausse de 64 % sur un an, contre environ 131 M$ attendus. La marge brute ajustée ressort à 52 % et le bénéfice ajusté à 0,23 $ par action (0,16 $ en normes comptables pour les activités poursuivies). La part des clients hors des deux plus gros opérateurs grimpe à 46 % du total, avec neuf nouveaux clients dans sept pays. Le groupe relève sa prévision annuelle à 545-555 M$ de revenus et 0,80-0,84 $ de bénéfice ajusté par action, et vise 141-151 M$ au quatrième trimestre. Le carnet de commandes reste élevé (534 M$, +58 % sur un an) même s'il recule par rapport au trimestre précédent. Harmonic a racheté pour 46,6 M$ d'actions depuis janvier et remboursé 75 M$ de crédit. La direction prévient toutefois que la pénurie de composants, surtout la mémoire, pèsera encore en 2027. Le titre avait fini la séance à 10,19 $ (-0,4 %) avant de grimper vers 11,90 $ après la clôture.",
-      "why": "C'est une bonne publication pour ta ligne. Vérifie si la hausse d'après-Bourse tient en séance mardi, et garde un œil sur la concentration clients (deux opérateurs font encore 54 % des ventes) et sur le recul du carnet."
+      "impact": "mix",
+      "date": "2026-11-03",
+      "title": "Harmonic : bond de 17 % à l'ouverture après des résultats solides, puis l'essentiel du gain s'évapore",
+      "source": "Harmonic (communiqué SEC) · MarketBeat · Investing.com",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-harmonic-nasdaq-hlit-stock-price-target-lowered-at-jefferies-financial-group-2026-11-03/",
+      "summary": "Pour son premier trimestre complet recentré sur le haut débit (la branche vidéo a été cédée à MediaKind), Harmonic a publié lundi soir des revenus de 148,8 M$, en hausse de 64 % sur un an et au-dessus des 131 M$ attendus, avec un bénéfice ajusté de 0,23 $ par action. La prévision annuelle est relevée à 545-555 M$ de revenus et 0,80-0,84 $ de bénéfice ajusté par action, et le quatrième trimestre est visé entre 141 et 151 M$ de revenus, mais avec un bénéfice ajusté de 0,13 à 0,16 $ par action, sous le consensus. Le carnet de commandes reste élevé (534 M$, +58 % sur un an) mais recule par rapport au trimestre précédent, et la direction prévient que la pénurie de composants, notamment de mémoire, pèsera encore en 2027. Mardi, le titre a ouvert à 11,89 $, soit près de 17 % au-dessus de la clôture de lundi (10,19 $), avant de reperdre l'essentiel de ce gain pour revenir autour de 10,30 $ en séance. Les analystes sont restés prudents : Jefferies ramène son objectif de 15 à 13 $ (conserver) et Barclays de 16 à 14 $ (pondération neutre), jugeant les perspectives de croissance moins dynamiques que le trimestre lui-même.",
+      "why": "Le marché a d'abord salué la publication, puis a douté de la suite. Surveille si le titre tient au-dessus de 10 $, le niveau du carnet de commandes et l'effet de la pénurie de mémoire sur les marges en 2027."
     },
     {
       "id": "rddt-q3-2026",
@@ -413,6 +424,36 @@
       "url": "https://www.france-epargne.fr/news/lvmh-la-mode-et-la-maroquinerie-reculent-de-5-au-troisieme-trimestre-sous-les-attentes",
       "summary": "LVMH a ouvert la saison des publications du CAC 40 avec un troisième trimestre à 18,5 Md€ de ventes, en croissance organique de 1 %, conforme au consensus mais en ralentissement par rapport au printemps (+3 %). Le problème se concentre dans le pôle le plus rentable. La Mode et Maroquinerie, qui pèse environ 70 % du résultat opérationnel, recule de 5 % en organique à 8,25 Md€, alors que les analystes attendaient environ 8,4 Md€. Le groupe attribue ce ralentissement à une Chine moins porteuse, alors que les États-Unis, l'Europe et le Japon progressent. La distribution sélective (Sephora notamment) tire au contraire la croissance, avec +8 % au trimestre. Sur neuf mois, les ventes atteignent 57,1 Md€ : +2 % en organique, mais en léger recul en données publiées, à cause des devises. L'action se traîne vers 384 €, en forte baisse depuis le début de l'année.",
       "why": "La reprise du luxe tarde. Le prochain test sera la saison de Noël, avec des distributeurs français qui anticipent déjà des fêtes moroses, puis les résultats annuels fin janvier."
+    },
+    {
+      "id": "space-rebound-1103",
+      "tickers": [
+        "SPCX",
+        "RKLB",
+        "ASTS"
+      ],
+      "score": 3,
+      "impact": "pos",
+      "date": "2026-11-03",
+      "title": "Les valeurs spatiales rebondissent le jour des élections de mi-mandat : SpaceX, Rocket Lab et AST en hausse",
+      "source": "24/7 Wall St. · Yahoo Finance",
+      "url": "https://247wallst.com/investing/2026/11/03/intuitive-machines-jumps-8-on-third-nasa-contract-in-six-months-rocket-lab-climbs-5-spacex-gains-3/",
+      "summary": "Après une séance de lundi difficile pour le secteur, les valeurs spatiales ont repris des couleurs mardi, dans un marché où le Nasdaq progressait pendant que les Américains votaient pour les élections de mi-mandat. Rocket Lab gagnait environ 5 % vers 54,40 $, SpaceX un peu plus de 3 % vers 141 $ et AST SpaceMobile entre 2 et 4 % vers 37-37,60 $. Aucune annonce spécifique à ces trois sociétés n'explique le mouvement : il s'agit surtout d'un rebond technique de l'ensemble du groupe, porté par le retour des acheteurs sur les valeurs de croissance après les ventes de la veille. Intuitive Machines, qui a décroché un nouveau contrat de la NASA, faisait mieux encore (+8 %). Pour AST SpaceMobile, ce rebond reste modeste au regard de la chute de 11 % de lundi et d'un recul d'environ un tiers sur un mois, alors que la société vise désormais environ 45 satellites BlueBird en orbite début 2027 plutôt que d'ici fin 2026. Pour SpaceX, le marché garde en tête les discussions rapportées autour de Boost Mobile. Les chiffres cités sont des relevés en cours de séance, pas des clôtures.",
+      "why": "Un rebond sans nouvelle de fond reste fragile. Les vrais catalyseurs arrivent vite : résultats de Rocket Lab le 9 novembre, d'AST la semaine prochaine, et l'issue des élections qui peut influencer les budgets de défense et d'espace."
+    },
+    {
+      "id": "rklb-iridium-fcc",
+      "tickers": [
+        "RKLB"
+      ],
+      "score": 3,
+      "impact": "neu",
+      "date": "2026-11-03",
+      "title": "Rocket Lab réussit sa 99e mission Electron et presse la FCC d'approuver le rachat d'Iridium",
+      "source": "Stocktwits · GlobeNewswire (Rocket Lab)",
+      "url": "https://stocktwits.com/news-articles/markets/equity/rklb-iridium-deal-globalstar-spacex-concerns-rocketlab-fast-fcc-approval/cNGQHAcR957",
+      "summary": "Rocket Lab a mis en orbite lundi un satellite radar japonais pour le compte d'iQPS, sa 99e mission Electron, ce qui confirme la cadence élevée du petit lanceur à l'approche du centième vol. En parallèle, le dossier le plus structurant pour l'actionnaire reste le rachat d'Iridium, annoncé pour une valeur d'entreprise d'environ 8 Md$ (54 $ par action Iridium, dont la moitié en numéraire et le reste en actions Rocket Lab, avec un mécanisme de tunnel). Les actionnaires d'Iridium ont approuvé l'opération en septembre à 99,6 %, et la finalisation est visée pour mi-2027. Rocket Lab et Iridium demandent désormais à la FCC, le régulateur américain des télécoms, de trancher rapidement, en s'appuyant sur le feu vert récent donné à Amazon pour Globalstar. Globalstar, client de Rocket Lab pour 17 plateformes de satellites, ne s'oppose pas à la fusion mais demande des garanties pour éviter que Rocket Lab ne favorise Iridium. SpaceX et Ligado ont soulevé des questions de coordination et d'interférences que les deux sociétés jugent étrangères à l'opération. La prochaine échéance de la procédure tombe le 9 novembre.",
+      "why": "L'opération est payée en partie en actions, donc diluante. Surveille l'avancement à la FCC et les commentaires sur Iridium lors des résultats du 9 novembre."
     },
     {
       "id": "poet-cfo",
