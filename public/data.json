@@ -1,0 +1,571 @@
+{
+  "updated": "2026-11-03T22:40:00+01:00",
+  "updated_label": "Mardi 3 novembre 2026, 22h40",
+  "quotes_note": "Clôtures du 03/11 · pas du temps réel",
+  "quotes": [
+    {
+      "t": "SPCX",
+      "name": "SpaceX",
+      "price": 140.99,
+      "chg": 3.39,
+      "cur": "$",
+      "asof": "03/11",
+      "approx": true,
+      "note": "relevé en séance, clôture non vérifiée"
+    },
+    {
+      "t": "TE",
+      "name": "T1 Energy",
+      "price": 2.88,
+      "chg": 9.32,
+      "cur": "$",
+      "asof": "29/10",
+      "approx": true
+    },
+    {
+      "t": "IREN",
+      "name": "IREN",
+      "price": 24.51,
+      "chg": -6.63,
+      "cur": "$",
+      "asof": "30/10",
+      "approx": true,
+      "note": "nouveau repli lundi 02/11"
+    },
+    {
+      "t": "ASTI",
+      "name": "Ascent Solar",
+      "price": 1.57,
+      "chg": null,
+      "cur": "$",
+      "asof": "30/10",
+      "approx": true
+    },
+    {
+      "t": "ASTS",
+      "name": "AST SpaceMobile",
+      "price": 37.63,
+      "chg": 3.58,
+      "cur": "$",
+      "asof": "03/11",
+      "approx": true,
+      "note": "relevé en séance, clôture non vérifiée"
+    },
+    {
+      "t": "HLIT",
+      "name": "Harmonic",
+      "price": 10.31,
+      "chg": 1.18,
+      "cur": "$",
+      "asof": "03/11",
+      "note": "ouverture à 11,89 $ (+17 %) puis repli ; clôture non vérifiée",
+      "approx": true
+    },
+    {
+      "t": "POET",
+      "name": "POET Technologies",
+      "price": 5.66,
+      "chg": -3.08,
+      "cur": "$",
+      "asof": "29/10",
+      "approx": true
+    },
+    {
+      "t": "RDW",
+      "name": "Redwire",
+      "price": 8.3,
+      "chg": -0.66,
+      "cur": "$",
+      "asof": "30/10",
+      "approx": true
+    },
+    {
+      "t": "RKLB",
+      "name": "Rocket Lab",
+      "price": 54.42,
+      "chg": 4.51,
+      "cur": "$",
+      "asof": "03/11",
+      "approx": true,
+      "note": "relevé en séance, clôture non vérifiée"
+    },
+    {
+      "t": "PLTR",
+      "name": "Palantir",
+      "price": 169.47,
+      "chg": -4.98,
+      "cur": "$",
+      "asof": "03/11",
+      "note": "relevé en séance (16h30 heure de Paris), clôture non vérifiée",
+      "approx": true
+    },
+    {
+      "t": "RDDT",
+      "name": "Reddit",
+      "price": 91.73,
+      "chg": -29.22,
+      "cur": "$",
+      "asof": "30/10"
+    },
+    {
+      "t": "ONDS",
+      "name": "Ondas",
+      "price": 5.75,
+      "chg": -9.02,
+      "cur": "$",
+      "asof": "02/11",
+      "approx": true
+    },
+    {
+      "t": "ALRIB",
+      "name": "Riber",
+      "price": 6.63,
+      "chg": 4.91,
+      "cur": "€",
+      "asof": "29/10",
+      "approx": true
+    },
+    {
+      "t": "MC",
+      "name": "LVMH",
+      "price": 401.5,
+      "chg": 1.99,
+      "cur": "€",
+      "asof": "03/11"
+    },
+    {
+      "t": "FDJU",
+      "name": "FDJ United",
+      "price": 21.12,
+      "chg": 0.72,
+      "cur": "€",
+      "asof": "29/10",
+      "approx": true
+    },
+    {
+      "t": "ADYEN",
+      "name": "Adyen",
+      "price": 815.9,
+      "chg": -0.26,
+      "cur": "€",
+      "asof": "29/10",
+      "approx": true
+    },
+    {
+      "t": "AMUN",
+      "name": "Amundi",
+      "price": 91.05,
+      "chg": 1.96,
+      "cur": "€",
+      "asof": "29/10",
+      "approx": true
+    },
+    {
+      "t": "ASML",
+      "name": "ASML",
+      "price": 1504.8,
+      "chg": 0.0,
+      "cur": "€",
+      "asof": "29/10",
+      "approx": true
+    }
+  ],
+  "agenda": [
+    {
+      "date": "2026-11-04",
+      "t": "RDW",
+      "label": "Résultats T3 (après clôture US)"
+    },
+    {
+      "date": "2026-11-05",
+      "t": "IREN",
+      "label": "Résultats du trimestre clos fin septembre"
+    },
+    {
+      "date": "2026-11-09",
+      "t": "RKLB",
+      "label": "Résultats T3 (après clôture US, 23h heure de Paris)"
+    },
+    {
+      "date": "2026-11-09",
+      "t": "ASTI",
+      "label": "Résultats trimestriels"
+    },
+    {
+      "date": "2026-11-09",
+      "t": "RKLB",
+      "label": "Échéance FCC (réponses) dans le dossier de rachat d'Iridium"
+    },
+    {
+      "date": "2026-11-10",
+      "t": "ASTS",
+      "label": "Résultats T3 (attendus la semaine du 9 novembre, date à confirmer)"
+    },
+    {
+      "date": "2026-11-12",
+      "t": "TE",
+      "label": "Résultats T3"
+    },
+    {
+      "date": "2026-11-12",
+      "t": "ONDS",
+      "label": "Résultats T3 (avant ouverture US, conférence 14h30 heure de Paris)"
+    },
+    {
+      "date": "2026-11-13",
+      "t": "ASTS",
+      "label": "Date limite pour l'action collective (demandeur principal)"
+    },
+    {
+      "date": "2026-11-16",
+      "t": "POET",
+      "label": "Résultats T3"
+    },
+    {
+      "date": "2027-02-18",
+      "t": "FDJU",
+      "label": "Résultats annuels 2026 (avant Bourse)"
+    }
+  ],
+  "articles": [
+    {
+      "id": "pltr-q3-2026",
+      "tickers": [
+        "PLTR"
+      ],
+      "score": 5,
+      "impact": "mix",
+      "date": "2026-11-03",
+      "title": "Palantir : le marché sanctionne le ralentissement des signatures, les analystes relèvent pourtant leurs objectifs",
+      "source": "Palantir (communiqué SEC) · TipRanks · The Crypto Basic · MarketBeat",
+      "url": "https://www.tipranks.com/news/why-palantir-stock-fell-despite-an-earnings-beat-and-why-morgan-stanley-raised-its-price-target",
+      "summary": "Les chiffres du troisième trimestre étaient pourtant très bons : 2,31 Md$ de revenus (+96 % sur un an), un bénéfice ajusté de 0,44 $ par action au-dessus des attentes, une marge opérationnelle ajustée proche de 62 % et une prévision annuelle relevée à environ 8,53 Md$ (contre 8,16 Md$). Le quatrième trimestre est attendu vers 2,65 Md$, bien au-dessus du consensus de 2,46 Md$. Mais mardi, le titre a reculé d'environ 5 % en séance, autour de 169-170 $, après une cinquième baisse d'affilée lundi. Le marché s'est focalisé sur les indicateurs avancés : la valeur totale des contrats signés n'a progressé que de 6 % sur un an (2,92 Md$), contre +49 % au trimestre précédent, et seulement de 11 % dans le commercial américain, après +153 %. Les engagements restant à facturer à long terme reculent légèrement (2,74 Md$ contre 2,81 Md$). La direction explique que plusieurs gros contrats d'IA souveraine ont des durées plus courtes que d'habitude. Côté analystes, l'accueil reste favorable : Morgan Stanley passe son objectif de 205 à 233 $ (neutre), Piper Sandler à 235 $, DA Davidson confirme l'achat à 250 $, comme Truist, et UBS relève aussi sa cible.",
+      "why": "La croissance des revenus n'est pas en cause, c'est la visibilité future qui est questionnée. Le prochain point clé sera la valeur des contrats signés au quatrième trimestre : un rebond rassurerait, une nouvelle stagnation pèserait sur une valorisation très élevée."
+    },
+    {
+      "id": "hlit-q3-2026",
+      "tickers": [
+        "HLIT"
+      ],
+      "score": 5,
+      "impact": "mix",
+      "date": "2026-11-03",
+      "title": "Harmonic : bond de 17 % à l'ouverture après des résultats solides, puis l'essentiel du gain s'évapore",
+      "source": "Harmonic (communiqué SEC) · MarketBeat · Investing.com",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-harmonic-nasdaq-hlit-stock-price-target-lowered-at-jefferies-financial-group-2026-11-03/",
+      "summary": "Pour son premier trimestre complet recentré sur le haut débit (la branche vidéo a été cédée à MediaKind), Harmonic a publié lundi soir des revenus de 148,8 M$, en hausse de 64 % sur un an et au-dessus des 131 M$ attendus, avec un bénéfice ajusté de 0,23 $ par action. La prévision annuelle est relevée à 545-555 M$ de revenus et 0,80-0,84 $ de bénéfice ajusté par action, et le quatrième trimestre est visé entre 141 et 151 M$ de revenus, mais avec un bénéfice ajusté de 0,13 à 0,16 $ par action, sous le consensus. Le carnet de commandes reste élevé (534 M$, +58 % sur un an) mais recule par rapport au trimestre précédent, et la direction prévient que la pénurie de composants, notamment de mémoire, pèsera encore en 2027. Mardi, le titre a ouvert à 11,89 $, soit près de 17 % au-dessus de la clôture de lundi (10,19 $), avant de reperdre l'essentiel de ce gain pour revenir autour de 10,30 $ en séance. Les analystes sont restés prudents : Jefferies ramène son objectif de 15 à 13 $ (conserver) et Barclays de 16 à 14 $ (pondération neutre), jugeant les perspectives de croissance moins dynamiques que le trimestre lui-même.",
+      "why": "Le marché a d'abord salué la publication, puis a douté de la suite. Surveille si le titre tient au-dessus de 10 $, le niveau du carnet de commandes et l'effet de la pénurie de mémoire sur les marges en 2027."
+    },
+    {
+      "id": "rddt-q3-2026",
+      "tickers": [
+        "RDDT"
+      ],
+      "score": 5,
+      "impact": "neg",
+      "date": "2026-11-02",
+      "title": "Reddit s'effondre de 29 % après ses résultats : utilisateurs en baisse, Google en cause, avalanche de dégradations",
+      "source": "The Motley Fool · TipRanks · Benzinga",
+      "url": "https://www.tipranks.com/news/reddit-stock-rddt-plummets-over-29-amid-analyst-downgrades-and-price-target-cuts",
+      "summary": "Le trimestre était solide sur le plan financier : chiffre d'affaires en hausse de 53 % à 895 M$, au-dessus du consensus, bénéfice de 1,40 $ par action et excédent brut d'exploitation ajusté de 402 M$. Mais vendredi, le titre a perdu 29,2 % pour clôturer à 91,73 $, son plus bas sur un an. Ce sont les utilisateurs qui inquiètent : les utilisateurs actifs quotidiens progressent de 12 % à 130,3 millions, sous les 133,7 millions attendus, et ils reculent de 2 % aux États-Unis (50,7 millions). Le patron Steve Huffman a expliqué que Google avait changé sa relation avec le reste du web : ses réponses générées par IA envoient moins de visiteurs, et Reddit a perdu en moyenne un million de visites hebdomadaires venues de Google en octobre. Il prévient que les utilisateurs quotidiens pourraient baisser au quatrième trimestre, et le site va obliger tous les visiteurs à créer un compte. Les analystes ont réagi en masse : Oppenheimer passe à la vente, KeyBanc et Citizens JMP à neutre, et les objectifs sont coupés chez Goldman Sachs (140 $), Citi (186 $), Wedbush (150 $), Piper Sandler (145 $), Wells Fargo (110 $) et Cantor (120 $). Le titre se paie désormais moins de dix fois les bénéfices attendus pour 2027.",
+      "why": "La question n'est plus la croissance des revenus mais la solidité de l'audience face à Google. Surveille les prochains chiffres de trafic et l'effet de l'inscription obligatoire, qui pourrait faire baisser les utilisateurs à court terme."
+    },
+    {
+      "id": "iren-neocloud-selloff",
+      "tickers": [
+        "IREN"
+      ],
+      "score": 5,
+      "impact": "neg",
+      "date": "2026-11-02",
+      "title": "IREN continue de glisser avant ses résultats du 5 novembre : B. Riley réduit son objectif à 64 $",
+      "source": "TIKR · MarketBeat · Benzinga",
+      "url": "https://www.tikr.com/blog/b-rileys-64-target-says-irens-selloff-went-too-far",
+      "summary": "La pression ne retombe pas sur IREN. Après une chute d'environ 9 % jeudi, le titre a encore reculé vendredi vers 24,50 $, puis de nouveau lundi. Il se trouve désormais environ 68 % sous son plus haut de novembre 2025. En cause, la vente généralisée des loueurs de capacité de calcul IA (« néoclouds ») : Microsoft, client qui devrait représenter près de 1,9 Md$ sur les 4 Md$ de revenus annualisés visés par IREN, a annoncé des investissements inférieurs aux attentes, et Elon Musk a prédit une vague de faillites et de consolidation dans le secteur. Le coût du financement inquiète, alors qu'IREN prévoit 25 à 30 Md$ d'investissements sur l'exercice 2027. Vendredi, B. Riley a réduit son objectif de 91 à 64 $, sa deuxième baisse en un mois, tout en maintenant sa recommandation à l'achat : il juge la chute excessive, à condition que l'entreprise finance son développement sans émettre beaucoup de nouvelles actions. Le consensus des objectifs reste vers 77 $. Les résultats sont attendus jeudi 5 novembre.",
+      "why": "Le 5 novembre, regarde surtout la structure du financement (dette ou nouvelles actions) et la progression des contrats IA. Une dilution importante serait le principal risque pour ta ligne."
+    },
+    {
+      "id": "adyen-q3-2026",
+      "tickers": [
+        "ADYEN"
+      ],
+      "score": 5,
+      "impact": "neg",
+      "date": "2026-10-28",
+      "title": "Adyen : croissance solide, mais l'abandon de l'objectif de marge fait plonger l'action de 13 %",
+      "source": "Adyen (communiqué) · Saxo · Zonebourse",
+      "url": "https://www.adyen.com/press-and-media/adyen-publishes-q3-2026-business-update-6r9vz0",
+      "summary": "Le spécialiste néerlandais des paiements a publié une activité trimestrielle robuste. Son revenu net progresse de 23 %, à 738 M€, et le volume de paiements traité bondit de 30 %, à 451 Md€. L'objectif de croissance annuelle de 21 à 23 % est maintenu. La mauvaise surprise vient de la rentabilité. Adyen accélère ses investissements après les rachats de Talon.One et d'Orb et embauche massivement. Le groupe vise désormais une marge d'EBITDA de 50 % en 2026, contre 53 % en 2025. Il abandonne son objectif de marge à moyen terme pour garder de la flexibilité et porte ses investissements à environ 7 % du revenu cette année. Les nouveaux objectifs 2027 seront donnés en février. Résultat : -13,35 % le 28 octobre, à 818 €. Plusieurs banques ont abaissé leurs objectifs de cours (JPMorgan, BMO, TD Cowen, Evercore), tout en gardant des recommandations à l'achat. Loop Capital a même relevé sa note.",
+      "why": "Le titre est tombé à son plus bas depuis un an (plancher sur 52 semaines vers 772 €). La question pour toi : crois-tu que ces investissements paieront en 2027-2028 ? Les objectifs de février seront le prochain rendez-vous clé."
+    },
+    {
+      "id": "rklb-neutron-2027",
+      "tickers": [
+        "RKLB"
+      ],
+      "score": 5,
+      "impact": "neg",
+      "date": "2026-10-14",
+      "title": "Rocket Lab repousse le premier vol de Neutron à 2027, puis le titre rebondit de 15 %",
+      "source": "Rocket Lab (communiqué) · Trefis · Finviz",
+      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-provides-update-neutron-development-and-adjusts",
+      "summary": "Le 14 octobre, Rocket Lab a officialisé le report du vol inaugural de sa fusée moyenne Neutron, attendu jusque-là au quatrième trimestre 2026, à l'année 2027. La direction avait préparé le terrain dès la publication du deuxième trimestre, mais l'annonce a coûté près de 8 % le jour même et encore plusieurs points le lendemain. Le titre est passé sous un support technique important, vers 54 $. Depuis, le mouvement s'est inversé. Rocket Lab a aligné cinq séances de hausse (+15 % cumulés) pour clôturer à 59,10 $ jeudi, porté par l'arrivée du second étage de Neutron sur le site de lancement et par la mise en avant d'un plan militaire de 515 M$ (8 satellites sur 18 en production). Le titre recule toutefois d'environ 6 % en avant-Bourse ce vendredi. Les résultats du troisième trimestre sont attendus vers le 9 novembre. L'objectif moyen des analystes reste proche de 100 $.",
+      "why": "Neutron est le cœur de la thèse à long terme. Chaque nouvelle date annoncée fera bouger le titre fortement. Aux résultats, regarde le carnet de commandes et le calendrier précis du premier vol."
+    },
+    {
+      "id": "spcx-boost-mobile",
+      "tickers": [
+        "SPCX",
+        "ASTS"
+      ],
+      "score": 4,
+      "impact": "mix",
+      "date": "2026-11-02",
+      "title": "SpaceX discuterait du rachat de Boost Mobile pour se lancer dans le mobile aux États-Unis",
+      "source": "The Next Web · Broadband Breakfast · MarketBeat",
+      "url": "https://thenextweb.com/news/spacex-boost-mobile-echostar-talks",
+      "summary": "Selon le Washington Post, SpaceX négocie avec EchoStar pour racheter son opérateur Boost Mobile ou, à défaut, obtenir l'accès à son réseau. Elon Musk aurait discuté directement avec Charlie Ergen, le patron d'EchoStar. L'intérêt est clair : un tel accord permettrait à SpaceX de vendre son propre forfait mobile aux États-Unis, en complément de ses satellites capables de communiquer directement avec les téléphones. Les deux groupes sont déjà liés : en septembre 2025, SpaceX avait accepté de racheter des fréquences d'EchoStar pour environ 17 Md$. Mais Boost ne possède pas d'antennes : il loue la capacité d'AT&T et de T-Mobile, et ces contrats ne sont généralement pas transférables sans leur accord, ce qui laisse les analystes sceptiques. Le titre SpaceX, qui avait perdu 6,4 % vendredi à 134,72 $, a regagné environ 1 % lundi vers 136 $. L'annonce a en revanche pesé sur AST SpaceMobile, perçu comme le concurrent direct dans la connexion satellite-téléphone.",
+      "why": "Pour SpaceX, c'est une option de croissance, pas encore un accord. Pour AST, c'est un rappel que SpaceX avance vite sur le même marché : surveille toute confirmation officielle."
+    },
+    {
+      "id": "asts-drop-1102",
+      "tickers": [
+        "ASTS"
+      ],
+      "score": 4,
+      "impact": "neg",
+      "date": "2026-11-02",
+      "title": "AST SpaceMobile chute de 11 % : concurrence de SpaceX, action en justice et résultats imminents",
+      "source": "MarketBeat · GlobeNewswire",
+      "url": "https://www.marketbeat.com/instant-alerts/price-ast-spacemobile-nasdaq-asts-shares-down-113-heres-what-happened-2026-11-02/",
+      "summary": "Lundi, AST SpaceMobile a perdu 11,3 % pour clôturer à 36,33 $, après être descendu jusqu'à 36,08 $ en séance, sur un volume légèrement supérieur à la normale. Aucune annonce de l'entreprise n'explique la baisse, mais trois facteurs se cumulent. D'abord, les informations sur les discussions entre SpaceX et Boost Mobile ravivent la crainte d'un concurrent beaucoup plus puissant sur la connexion directe des téléphones par satellite. Ensuite, plusieurs cabinets d'avocats relancent leurs appels à rejoindre l'action collective visant la société, avec une date limite fixée au 13 novembre pour se porter demandeur principal (ce sont des allégations, pas des faits établis). Enfin, les résultats trimestriels sont attendus la semaine prochaine, alors que le trimestre précédent avait déçu sur le chiffre d'affaires et les pertes. Côté positif, AT&T a réussi avec Ericsson et Nokia un test de bascule d'appel entre réseau terrestre et satellite. Le consensus reste neutre, avec un objectif moyen autour de 81 $.",
+      "why": "Le titre a perdu environ 15 % depuis jeudi. La publication de la semaine prochaine et une éventuelle date de lancement des BlueBird 14-16 seront décisives pour le sentiment."
+    },
+    {
+      "id": "amundi-q3-2026",
+      "tickers": [
+        "AMUN"
+      ],
+      "score": 4,
+      "impact": "pos",
+      "date": "2026-10-29",
+      "title": "Amundi : bénéfice ajusté en hausse de 20 % et collecte record sur neuf mois",
+      "source": "Zonebourse / Option Finance · Boursorama · ABC Bourse",
+      "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-29-amundi-resultat-net-en-progression-de-20-au-3e-trimestre.html",
+      "summary": "Le premier gestionnaire d'actifs européen a publié un troisième trimestre solide. Le résultat net ajusté progresse de 20,2 %, à 409 M€, et les revenus de 11 %, à 908 M€. Les coûts sont restés quasi stables : le coefficient d'exploitation descend à 50 %. Le résultat net comptable grimpe à 675 M€, porté par une plus-value d'environ 300 M€ sur la cession partielle de la société de gestion indienne SBI Funds Management lors de son introduction en Bourse. Sur la collecte, il faut lire entre les lignes. Hors transfert d'un gros mandat institutionnel au sein de la coentreprise indienne (39 Md€), Amundi a collecté 45,6 Md€ au trimestre et 102 Md€ sur neuf mois, un record historique. Une fois ce transfert inclus, la collecte du trimestre tombe à 6,5 Md€. Les ETF continuent de cartonner (+17 Md€, 432 Md€ d'encours), notamment en Allemagne grâce aux plateformes digitales. Les encours atteignent 2 579 Md€. L'action a gagné près de 2 %, à 91,05 €.",
+      "why": "Bonne nouvelle pour une ligne de rendement. Le chiffre de collecte « publié » peut sembler faible dans les titres de presse, mais l'effet est purement technique et ne change rien à la dynamique de fond."
+    },
+    {
+      "id": "asts-downgrades",
+      "tickers": [
+        "ASTS"
+      ],
+      "score": 4,
+      "impact": "mix",
+      "date": "2026-10-29",
+      "title": "AST SpaceMobile : trois satellites prêts au lancement, mais les analystes doutent du calendrier",
+      "source": "Beinsure · 24/7 Wall St. · Yahoo Finance",
+      "url": "https://beinsure.com/news/ast-spacemobile-asts-stock-forecast-target-faces-launch-risks/",
+      "summary": "Les satellites BlueBird 14, 15 et 16 sont arrivés à Cap Canaveral mi-octobre, et la production a atteint le BlueBird 50, mais aucune date de lancement n'est encore annoncée. Côté analystes, l'ambiance s'est refroidie. Piper Sandler est passé à neutre le 13 octobre en divisant presque son objectif par deux (de 98 à 54 $) : il doute de la capacité à tenir le rythme de lancements 2026-2027 et craint la concurrence de SpaceX, qui est aussi le principal lanceur d'AST. B. Riley a également dégradé le titre (objectif ramené de 85 à 65 $). S'y ajoutent une action collective en justice sur la communication de l'entreprise, l'échec du BlueBird 7 resté sur une orbite trop basse après un lancement Blue Origin, et six trimestres consécutifs sous les attentes. Le titre a clôturé à 43,07 $ jeudi (+1,8 %), à environ 68 % de son plus haut annuel.",
+      "why": "Ligne à fort risque d'exécution. L'annonce d'une date de lancement pour BB14-16 serait le prochain catalyseur positif. Un nouveau report pèserait encore."
+    },
+    {
+      "id": "spcx-unlock",
+      "tickers": [
+        "SPCX"
+      ],
+      "score": 4,
+      "impact": "neu",
+      "date": "2026-10-28",
+      "title": "SpaceX digère la fin de sa période de blocage et son bail de GPU à 40 milliards",
+      "source": "Gotrade News · Investing.com · MarketBeat",
+      "url": "https://www.heygotrade.com/en/news/spacex-spcx-stock-news-october-29-2026/",
+      "summary": "Depuis sa publication trimestrielle du 20 octobre, l'action SpaceX évolue dans un contexte technique chargé. Le 22 octobre, une levée de blocage a libéré jusqu'à environ 1,3 milliard d'actions détenues par des actionnaires d'avant l'introduction en Bourse : le titre a perdu un peu plus de 9 % ce jour-là, sa pire séance depuis début août. Il oscille depuis entre 143 et 149 $ et a clôturé jeudi à 143,89 $, environ 36 % sous son plus haut sur 52 semaines (225,64 $). Côté actualité, Fitch a estimé que le bail de GPU de 40 Md$ annoncé par SpaceX ne menaçait pas sa note de crédit. Le projet Starlink Mobile alimente aussi les débats : le patron de T-Mobile a de nouveau refusé un accord de réseau, et Verizon estime qu'il faudra des années à SpaceX pour rivaliser dans le mobile. Les analystes restent très positifs : objectifs de 275 $ chez BofA, 300 $ chez Barclays et 268 $ chez Bernstein.",
+      "why": "Le flux de vendeurs lié au déblocage pèse à court terme, indépendamment des fondamentaux. Les élections de mi-mandat du 3 novembre comptent aussi, à cause des financements du programme de défense Golden Dome."
+    },
+    {
+      "id": "fdju-q3-2026",
+      "tickers": [
+        "FDJU"
+      ],
+      "score": 4,
+      "impact": "neg",
+      "date": "2026-10-21",
+      "title": "FDJ United abaisse encore ses objectifs 2026 : fiscalité, jackpots rares et paris en ligne en repli",
+      "source": "ABC Bourse · Idéal Investisseur · Fortuneo/Zonebourse",
+      "url": "https://www.ideal-investisseur.fr/actions-b/fdj-united-chiffre-daffaires-en-recul-de-56-sur-neuf-mois-objectif-2026-abaisse/27679.html",
+      "summary": "Pour la deuxième fois en trois mois, FDJ United revoit ses ambitions à la baisse. Sur neuf mois, le chiffre d'affaires recule de 5,6 %, à 2,576 Md€. Plusieurs causes se cumulent : une hausse de la fiscalité sur les jeux (plus de 70 M€ d'impact cette année), une fréquentation en baisse des points de vente et un calendrier Euromillions défavorable, avec seulement 12 jackpots de plus de 130 M€ contre 27 l'an dernier. Les paris et jeux en ligne, issus du rachat de Kindred, reculent aussi. Le groupe table désormais sur une baisse « mid-single digit » du chiffre d'affaires sur l'année et une légère baisse du produit brut des jeux. Il promet de tenir une marge d'EBITDA courant autour de 23 % grâce aux économies. Point important pour un actionnaire : FDJ confirme une hausse annuelle du dividende, avec un taux de distribution d'au moins 75 %. Le titre a perdu 5 % le lendemain, à 19,9 €, avant de remonter à 21,12 €.",
+      "why": "Le dividende reste l'argument principal et il est confirmé. La croissance, elle, est en panne. Prochain point le 18 février 2027 avec les résultats annuels et sans doute de nouveaux objectifs."
+    },
+    {
+      "id": "asml-q3-2026",
+      "tickers": [
+        "ASML"
+      ],
+      "score": 4,
+      "impact": "pos",
+      "date": "2026-10-14",
+      "title": "ASML : trimestre record et une demande IA qui dépasse ses capacités jusqu'en 2028",
+      "source": "ASML (communiqué SEC) · Benzinga",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm",
+      "summary": "ASML a publié un chiffre d'affaires record de 11,7 Md€ au troisième trimestre, avec une marge brute de 57,5 %, au-dessus de sa propre fourchette, et un bénéfice net de 5,0 Md€. Ce bénéfice inclut environ 0,5 Md€ de réévaluation de sa participation dans Mistral AI. Le groupe a vendu 113 systèmes de lithographie neufs, contre 86 le trimestre précédent. Pour le quatrième trimestre, il vise entre 14,2 et 15,2 Md€. Sur l'année, la fourchette est resserrée vers le haut, à 44-45 Md€. Le message le plus fort concerne la demande : les clients relèvent leurs prévisions à cause de l'IA, ASML estime que ses capacités prévues pour 2027 et 2028 ne suffiront pas, et certains clients veulent déjà commander pour 2029 ou 2030. Le groupe étudie donc une hausse de capacité supplémentaire. Il a aussi racheté environ 4,1 Md€ d'actions au trimestre. L'action avait cédé environ 3 % le jour même, le chiffre d'affaires étant très légèrement sous le consensus. Elle a depuis remonté jusqu'à 1 504,80 € jeudi, avant de reculer vers 1 425 € ce vendredi matin.",
+      "why": "C'est le fondamental le plus solide de ton portefeuille en ce moment. Le risque principal reste extérieur à l'entreprise : contrôles à l'export et cycles d'investissement des fabricants de puces."
+    },
+    {
+      "id": "lvmh-q3-2026",
+      "tickers": [
+        "MC"
+      ],
+      "score": 4,
+      "impact": "neg",
+      "date": "2026-10-12",
+      "title": "LVMH ralentit au T3 : la Mode et Maroquinerie recule plus que prévu",
+      "source": "Idéal Investisseur · France Épargne · BFM Bourse",
+      "url": "https://www.france-epargne.fr/news/lvmh-la-mode-et-la-maroquinerie-reculent-de-5-au-troisieme-trimestre-sous-les-attentes",
+      "summary": "LVMH a ouvert la saison des publications du CAC 40 avec un troisième trimestre à 18,5 Md€ de ventes, en croissance organique de 1 %, conforme au consensus mais en ralentissement par rapport au printemps (+3 %). Le problème se concentre dans le pôle le plus rentable. La Mode et Maroquinerie, qui pèse environ 70 % du résultat opérationnel, recule de 5 % en organique à 8,25 Md€, alors que les analystes attendaient environ 8,4 Md€. Le groupe attribue ce ralentissement à une Chine moins porteuse, alors que les États-Unis, l'Europe et le Japon progressent. La distribution sélective (Sephora notamment) tire au contraire la croissance, avec +8 % au trimestre. Sur neuf mois, les ventes atteignent 57,1 Md€ : +2 % en organique, mais en léger recul en données publiées, à cause des devises. L'action se traîne vers 384 €, en forte baisse depuis le début de l'année.",
+      "why": "La reprise du luxe tarde. Le prochain test sera la saison de Noël, avec des distributeurs français qui anticipent déjà des fêtes moroses, puis les résultats annuels fin janvier."
+    },
+    {
+      "id": "space-rebound-1103",
+      "tickers": [
+        "SPCX",
+        "RKLB",
+        "ASTS"
+      ],
+      "score": 3,
+      "impact": "pos",
+      "date": "2026-11-03",
+      "title": "Les valeurs spatiales rebondissent le jour des élections de mi-mandat : SpaceX, Rocket Lab et AST en hausse",
+      "source": "24/7 Wall St. · Yahoo Finance",
+      "url": "https://247wallst.com/investing/2026/11/03/intuitive-machines-jumps-8-on-third-nasa-contract-in-six-months-rocket-lab-climbs-5-spacex-gains-3/",
+      "summary": "Après une séance de lundi difficile pour le secteur, les valeurs spatiales ont repris des couleurs mardi, dans un marché où le Nasdaq progressait pendant que les Américains votaient pour les élections de mi-mandat. Rocket Lab gagnait environ 5 % vers 54,40 $, SpaceX un peu plus de 3 % vers 141 $ et AST SpaceMobile entre 2 et 4 % vers 37-37,60 $. Aucune annonce spécifique à ces trois sociétés n'explique le mouvement : il s'agit surtout d'un rebond technique de l'ensemble du groupe, porté par le retour des acheteurs sur les valeurs de croissance après les ventes de la veille. Intuitive Machines, qui a décroché un nouveau contrat de la NASA, faisait mieux encore (+8 %). Pour AST SpaceMobile, ce rebond reste modeste au regard de la chute de 11 % de lundi et d'un recul d'environ un tiers sur un mois, alors que la société vise désormais environ 45 satellites BlueBird en orbite début 2027 plutôt que d'ici fin 2026. Pour SpaceX, le marché garde en tête les discussions rapportées autour de Boost Mobile. Les chiffres cités sont des relevés en cours de séance, pas des clôtures.",
+      "why": "Un rebond sans nouvelle de fond reste fragile. Les vrais catalyseurs arrivent vite : résultats de Rocket Lab le 9 novembre, d'AST la semaine prochaine, et l'issue des élections qui peut influencer les budgets de défense et d'espace."
+    },
+    {
+      "id": "rklb-iridium-fcc",
+      "tickers": [
+        "RKLB"
+      ],
+      "score": 3,
+      "impact": "neu",
+      "date": "2026-11-03",
+      "title": "Rocket Lab réussit sa 99e mission Electron et presse la FCC d'approuver le rachat d'Iridium",
+      "source": "Stocktwits · GlobeNewswire (Rocket Lab)",
+      "url": "https://stocktwits.com/news-articles/markets/equity/rklb-iridium-deal-globalstar-spacex-concerns-rocketlab-fast-fcc-approval/cNGQHAcR957",
+      "summary": "Rocket Lab a mis en orbite lundi un satellite radar japonais pour le compte d'iQPS, sa 99e mission Electron, ce qui confirme la cadence élevée du petit lanceur à l'approche du centième vol. En parallèle, le dossier le plus structurant pour l'actionnaire reste le rachat d'Iridium, annoncé pour une valeur d'entreprise d'environ 8 Md$ (54 $ par action Iridium, dont la moitié en numéraire et le reste en actions Rocket Lab, avec un mécanisme de tunnel). Les actionnaires d'Iridium ont approuvé l'opération en septembre à 99,6 %, et la finalisation est visée pour mi-2027. Rocket Lab et Iridium demandent désormais à la FCC, le régulateur américain des télécoms, de trancher rapidement, en s'appuyant sur le feu vert récent donné à Amazon pour Globalstar. Globalstar, client de Rocket Lab pour 17 plateformes de satellites, ne s'oppose pas à la fusion mais demande des garanties pour éviter que Rocket Lab ne favorise Iridium. SpaceX et Ligado ont soulevé des questions de coordination et d'interférences que les deux sociétés jugent étrangères à l'opération. La prochaine échéance de la procédure tombe le 9 novembre.",
+      "why": "L'opération est payée en partie en actions, donc diluante. Surveille l'avancement à la FCC et les commentaires sur Iridium lors des résultats du 9 novembre."
+    },
+    {
+      "id": "poet-cfo",
+      "tickers": [
+        "POET"
+      ],
+      "score": 3,
+      "impact": "neu",
+      "date": "2026-11-02",
+      "title": "POET Technologies change de directeur financier et promet des conférences trimestrielles",
+      "source": "POET Technologies (communiqué)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/02/3393016/0/en/poet-technologies-names-giovanni-pacelli-cfo.html",
+      "summary": "POET a nommé lundi Giovanni Pacelli au poste de directeur financier, avec effet immédiat. Il remplace Thomas Mika, en poste depuis dix ans, qui restera jusqu'au 2 décembre pour assurer la transition. Pacelli arrive de Silicon Labs, où il occupait un poste de direction financière et s'occupait notamment de planification stratégique et de relations investisseurs ; il a auparavant travaillé chez Freescale et NXP, dont il a accompagné la fusion. Il reçoit environ 385 000 actions gratuites acquises par tiers sur trois ans. Le président-directeur général Suresh Venkatesan a salué le rôle de Mika dans la transformation de POET en entreprise commerciale bien financée, ayant levé plus de 800 M$ au total. Autre élément utile pour toi : à partir des résultats annuels 2026, la société tiendra une conférence téléphonique chaque trimestre, ce qu'elle ne faisait pas systématiquement. Les résultats du troisième trimestre restent prévus le 16 novembre. Le titre, qui a perdu environ 30 % en octobre sans nouvelle spécifique, cherche des catalyseurs.",
+      "why": "Un profil tourné vers les relations investisseurs et des conférences régulières devraient améliorer la visibilité. Le vrai test reste la publication du 16 novembre et la montée en puissance des ventes."
+    },
+    {
+      "id": "rdw-preview",
+      "tickers": [
+        "RDW"
+      ],
+      "score": 3,
+      "impact": "neu",
+      "date": "2026-11-02",
+      "title": "Redwire publie mercredi : perte réduite et croissance de 22 % attendues",
+      "source": "Redwire (communiqué) · MarketBeat · Investing.com",
+      "url": "https://rdw.com/newsroom/redwire-corporation-to-report-third-quarter-2026-results-on-november-4-2026/",
+      "summary": "Redwire publiera son troisième trimestre mercredi 4 novembre après la clôture, avec une conférence jeudi à 15h heure de Paris. Le consensus prévoit une perte d'environ 0,12 $ par action, contre 0,29 $ un an plus tôt, et un chiffre d'affaires de 126,5 M$, soit environ 22 % de croissance. Attention : la société n'a battu le consensus de bénéfice qu'une fois sur ses huit derniers trimestres. Le deuxième trimestre avait pourtant été encourageant : revenus de 117 M$, marge brute record de 27,8 %, carnet de commandes porté à 542 M$ et dette fortement réduite. B. Riley a réitéré son opinion à l'achat avant la publication. En Bourse, le titre a reculé autour de 8,30 $ et a perdu environ 30 % depuis fin juin, pénalisé par des pertes persistantes, une valorisation jugée élevée, une vente de titres par un administrateur et, fin octobre, des propos d'un dirigeant expliquant que certaines tactiques de drones efficaces en Ukraine ne fonctionnaient plus. Récemment, Redwire a aussi signé un protocole d'accord avec EnduroSat pour les infrastructures spatiales européennes.",
+      "why": "Le carnet de commandes et la trajectoire de marge compteront plus que la perte du trimestre. Le titre bouge fortement avec le secteur spatial, en repli lundi."
+    },
+    {
+      "id": "onds-orders",
+      "tickers": [
+        "ONDS"
+      ],
+      "score": 3,
+      "impact": "pos",
+      "date": "2026-10-30",
+      "title": "Ondas accumule les commandes de défense et se place sur le programme anti-drones de la FEMA",
+      "source": "Schaeffer's · ACCESS Newswire (communiqué) · 24/7 Wall St.",
+      "url": "https://www.schaeffersresearch.com/content/news/2026/10/05/ondas-stock-buzzing-after-new-contract-bull-note",
+      "summary": "Ondas a annoncé plus de 165 M$ de nouvelles commandes depuis fin août, ce qui porte le total depuis fin juin au-delà de 270 M$ et donne de la visibilité jusqu'en 2027. La plus marquante est une commande de 56 M$ de dispositifs de sécurité et d'armement électroniques pour un programme européen de munitions rôdeuses. C'est le premier gros contrat de frappe de précision depuis les rachats de GATE et Bron. Le groupe cofonde aussi Regna AI, une entreprise d'IA de défense bâtie sur la technologie Palantir, et sa filiale Cyberhawk a signé un contrat pluriannuel d'inspection par drones avec l'énergéticien britannique SSE. Ce vendredi, Ondas se positionne sur le programme fédéral américain de subventions anti-drones de 250 M$ géré par la FEMA, en s'appuyant sur ses déploiements pendant la Coupe du monde 2026. En Bourse, Citizens a lancé le suivi à surperformance avec 14 $ d'objectif, mais le titre (≈ 7 $) reste en baisse d'environ 30 % sur l'année. Les vendeurs à découvert détiennent une très grosse part du flottant.",
+      "why": "L'activité commerciale s'accélère nettement, mais le marché ne l'a pas encore récompensée. Avec une vente à découvert aussi massive, le titre peut bouger très vite dans les deux sens à chaque annonce."
+    },
+    {
+      "id": "te-collapse",
+      "tickers": [
+        "TE"
+      ],
+      "score": 3,
+      "impact": "mix",
+      "date": "2026-10-29",
+      "title": "T1 Energy touche un plancher annuel à 2,08 $ puis rebondit, en attendant ses résultats du 12 novembre",
+      "source": "StockAnalysis · Investing.com · Rava (fil d'actualité)",
+      "url": "https://stockanalysis.com/stocks/te/",
+      "summary": "Le fabricant américain de panneaux solaires (ex-FREYR) a vécu un mois d'octobre très difficile. Le titre est passé d'environ 3,70 $ fin septembre à un plus bas sur 52 semaines de 2,08 $ le 26 octobre, soit plus de 55 % de baisse depuis le début de l'année. Quelques nouvelles sont tombées pendant cette glissade. Le 22 octobre, le département du Commerce a accordé à T1 une exemption sur les droits « section 232 » visant le polysilicium, ce qui est important pour ses coûts d'approvisionnement. La veille, la société avait reporté l'émission d'actions prévue pour payer un rachat d'actifs de 30 M$ à Evervolt. Northland a abaissé son objectif de 16 à 9 $ tout en gardant sa recommandation à surperformance. Le titre a rebondi de 16 % le 27 octobre puis d'environ 9 % jeudi, à 2,88 $. Les fondamentaux restent fragiles : chiffre d'affaires élevé mais pertes importantes et endettement.",
+      "why": "Position très spéculative. Les résultats du 12 novembre diront si la trajectoire de rentabilité tient. L'exemption sur le polysilicium est le seul vrai point positif concret du mois."
+    },
+    {
+      "id": "poet-selloff",
+      "tickers": [
+        "POET"
+      ],
+      "score": 3,
+      "impact": "neu",
+      "date": "2026-10-26",
+      "title": "POET Technologies : -30 % en octobre sans nouvelle de l'entreprise, toute l'optique IA recule",
+      "source": "Merlintrader (rapport) · Börse Express · MarketBeat",
+      "url": "https://www.merlintrader.com/wp-content/uploads/2026/10/poet-technologies-report-2026-10-26-mipi09l8.pdf",
+      "summary": "Entre le 2 et le 16 octobre, l'action POET est passée de 7,79 $ à 5,43 $, soit environ 30 % de baisse. La seule communication de la société sur la période était la date de ses résultats. La baisse est sectorielle : Coherent, Lumentum et Applied Optoelectronics ont chuté dans des proportions comparables (entre -24 et -35 %). Sur le fond, POET est en pleine transition de la R&D vers la production en volume de moteurs optiques pour les centres de données IA. La fabrication en série démarre en Malaisie, avec un objectif de plus de 30 000 unités livrées cette année. Un accord avec Lumilens assure une première base de 50 M$, potentiellement jusqu'à 500 M$ sur cinq ans, et la trésorerie avoisine 430 M$. Les risques restent réels : une action collective en justice est en cours aux États-Unis, et l'émission de nouvelles actions peut diluer les actionnaires. Résultats du troisième trimestre le 16 novembre. Le titre a clôturé à 5,66 $ jeudi.",
+      "why": "La baisse ne dit rien de la réussite de la qualification des produits, qui est le vrai sujet. Le 16 novembre, regarde si les qualifications se transforment en livraisons acceptées par les clients."
+    },
+    {
+      "id": "riber-h1",
+      "tickers": [
+        "ALRIB"
+      ],
+      "score": 3,
+      "impact": "neu",
+      "date": "2026-09-24",
+      "title": "Riber renoue avec les bénéfices au 1er semestre, mais le titre a fondu de 35 % en un mois",
+      "source": "Fortuneo/Zonebourse · ABC Bourse · Boursorama",
+      "url": "https://bourse.fortuneo.fr/actions/cours-riber-ALRIB-FR0000075954-23",
+      "summary": "Le spécialiste français des machines d'épitaxie par jets moléculaires (MBE) pour semi-conducteurs a publié fin septembre un premier semestre en nette amélioration. Le chiffre d'affaires progresse de 19 %, à 12,7 M€, tiré par les services et accessoires (+71 %). Le résultat net redevient légèrement positif (0,2 M€ contre une perte de 0,8 M€ un an plus tôt). Riber a aussi sécurisé un financement pour développer ROSIE II, la nouvelle génération de sa machine destinée à la photonique sur silicium. En Bourse, après une année spectaculaire, octobre a été brutal : le titre est passé d'environ 9,90 € début octobre à 5,65 € le 23, avant un rebond à 6,63 € jeudi. Il recule à nouveau d'environ 6 % ce vendredi matin. Le titre reste très sensible à l'actualité de la photonique pour centres de données. L'objectif moyen des deux analystes qui suivent la valeur est de 8,75 €.",
+      "why": "Petite capitalisation (≈ 140 M€) et très volatile. Le prochain point d'information concret sera l'activité annuelle début 2027 et les commandes ROSIE."
+    },
+    {
+      "id": "onds-drop-1102",
+      "tickers": [
+        "ONDS"
+      ],
+      "score": 2,
+      "impact": "neg",
+      "date": "2026-11-02",
+      "title": "Ondas recule de 9 % sans nouvelle, avant ses résultats du 12 novembre",
+      "source": "MarketBeat · Ondas (communiqué)",
+      "url": "https://www.marketbeat.com/instant-alerts/price-ondas-nasdaq-onds-stock-price-down-9-heres-why-2026-11-02/",
+      "summary": "Ondas a perdu environ 9 % lundi, vers 5,75 $ contre 6,32 $ vendredi, sans communiqué ni information particulière pour l'expliquer. Le volume était même environ deux fois plus faible que la moyenne, ce qui suggère une baisse sans grosse vague de ventes. Le titre suit le mouvement de repli des valeurs spéculatives liées à la défense et aux drones, déjà marqué depuis plusieurs semaines. Il a ainsi perdu près de 18 % depuis la clôture du 29 octobre (6,98 $). La société a confirmé qu'elle publierait son troisième trimestre le jeudi 12 novembre avant l'ouverture, avec une conférence à 14h30 heure de Paris. Au trimestre précédent, Ondas avait largement dépassé les attentes de chiffre d'affaires (83,8 M$ contre 68 M$ attendus) et relevé sa prévision annuelle, mais avec une perte plus lourde que prévu. Le consensus des analystes reste à l'achat (11 sur 13), avec un objectif moyen proche de 17 $, très au-dessus du cours actuel.",
+      "why": "Rien de fondamental n'a changé depuis l'annonce de commandes de la semaine dernière. Le 12 novembre, regarde la confirmation de la prévision annuelle et l'évolution de la perte."
+    },
+    {
+      "id": "asti-darley",
+      "tickers": [
+        "ASTI"
+      ],
+      "score": 2,
+      "impact": "neu",
+      "date": "2026-10-20",
+      "title": "Ascent Solar signe un partenariat de distribution dans la défense, le titre reste sous 2 $",
+      "source": "StockAnalysis · Benzinga",
+      "url": "https://stockanalysis.com/stocks/asti/",
+      "summary": "Ascent Solar, qui fabrique des panneaux solaires souples à couches minces (technologie CIGS) pour le spatial et l'aéronautique, a annoncé le 20 octobre un partenariat avec Darley Defense pour élargir l'accès de ses produits aux marchés de la défense et des administrations. Le 28 octobre, la société a co-organisé un événement de réseautage avec des acteurs du spatial. Ces annonces commerciales restent modestes au regard de la situation financière. Le chiffre d'affaires est encore très faible (moins de 0,2 M$ sur douze mois) pour une perte d'environ 8 M$. La société a aussi procédé à un placement privé d'environ 1 million d'actions à 1,95 $, avec des bons de souscription, donc une dilution supplémentaire. Le titre a clôturé à 1,74 $ le 28 octobre, près de son plancher annuel (1,40 $) et très loin de son plus haut (9,87 $). Les résultats trimestriels sont attendus mi-novembre. La société publiera ses résultats trimestriels lundi 9 novembre ; les analystes attendent une perte d'environ 0,21 $ par action pour un chiffre d'affaires minime (environ 0,1 M$). Le titre s'échangeait vers 1,57 $ en fin de semaine dernière.",
+      "why": "Micro-capitalisation (≈ 20-30 M$) au profil très spéculatif. Les vrais signaux seront des commandes chiffrées et fermes, pas des partenariats."
+    }
+  ]
+}
