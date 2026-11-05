@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-04T11:20:00+01:00",
-  "updated_label": "Mercredi 4 novembre 2026, 11h20",
-  "quotes_note": "Clôtures du 03/11 · pas du temps réel",
+  "updated": "2026-11-05T08:25:00+01:00",
+  "updated_label": "Jeudi 5 novembre 2026, 8h25",
+  "quotes_note": "Clôtures du 04/11 · pas du temps réel",
   "quotes": [
     {
       "t": "SPCX",
       "name": "SpaceX",
-      "price": 141.31,
-      "chg": 3.62,
+      "price": 135.92,
+      "chg": -3.81,
       "cur": "$",
-      "asof": "03/11",
-      "note": "repli d'environ 1,8 % après Bourse (élections)"
+      "asof": "04/11",
+      "note": "Tesla -3,3 % le même jour"
     },
     {
       "t": "TE",
@@ -20,7 +20,7 @@
       "cur": "$",
       "asof": "03/11",
       "approx": true,
-      "note": "dernier cours relevé en fin de séance"
+      "note": "environ +11 % en séance le 04/11 avec le solaire, clôture non vérifiée"
     },
     {
       "t": "IREN",
@@ -28,7 +28,9 @@
       "price": 24.46,
       "chg": 11.08,
       "cur": "$",
-      "asof": "03/11"
+      "asof": "03/11",
+      "approx": true,
+      "note": "environ -11 % en séance le 04/11, clôture non vérifiée"
     },
     {
       "t": "ASTI",
@@ -41,10 +43,10 @@
     {
       "t": "ASTS",
       "name": "AST SpaceMobile",
-      "price": 37.15,
-      "chg": 2.26,
+      "price": 35.62,
+      "chg": -4.12,
       "cur": "$",
-      "asof": "03/11"
+      "asof": "04/11"
     },
     {
       "t": "HLIT",
@@ -68,18 +70,22 @@
     {
       "t": "RDW",
       "name": "Redwire",
-      "price": 8.12,
-      "chg": 3.7,
+      "price": 7.71,
+      "chg": -5.0,
       "cur": "$",
-      "asof": "03/11"
+      "asof": "04/11",
+      "approx": true,
+      "note": "« près de -5 % » en séance, encore -2 % la nuit après les résultats"
     },
     {
       "t": "RKLB",
       "name": "Rocket Lab",
-      "price": 54.43,
-      "chg": 4.53,
+      "price": 52.56,
+      "chg": -3.44,
       "cur": "$",
-      "asof": "03/11"
+      "asof": "04/11",
+      "approx": true,
+      "note": "cours estimé à partir de la variation publiée"
     },
     {
       "t": "PLTR",
@@ -87,7 +93,9 @@
       "price": 175.4,
       "chg": -1.65,
       "cur": "$",
-      "asof": "03/11"
+      "asof": "03/11",
+      "approx": true,
+      "note": "jusqu'à -6 % en séance le 04/11, autour de -3 % en fin de matinée US, clôture non vérifiée"
     },
     {
       "t": "RDDT",
@@ -118,10 +126,11 @@
     {
       "t": "MC",
       "name": "LVMH",
-      "price": 401.5,
-      "chg": 1.99,
+      "price": 416.25,
+      "chg": 3.67,
       "cur": "€",
-      "asof": "03/11"
+      "asof": "04/11",
+      "note": "CAC 40 +1,96 % porté par le luxe"
     },
     {
       "t": "FDJU",
@@ -157,19 +166,20 @@
       "chg": 0.0,
       "cur": "€",
       "asof": "29/10",
-      "approx": true
+      "approx": true,
+      "note": "-3,42 % le 04/11 selon Investing.com, niveau de cours non vérifié"
     }
   ],
   "agenda": [
     {
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "t": "RDW",
-      "label": "Résultats T3 (après clôture US)"
+      "label": "Conférence résultats T3 (15h heure de Paris), chiffres publiés la veille au soir"
     },
     {
       "date": "2026-11-05",
       "t": "IREN",
-      "label": "Résultats du trimestre clos fin septembre"
+      "label": "Résultats du trimestre clos fin septembre (après clôture US)"
     },
     {
       "date": "2026-11-09",
@@ -187,9 +197,9 @@
       "label": "Échéance FCC (réponses) dans le dossier de rachat d'Iridium"
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-09",
       "t": "ASTS",
-      "label": "Résultats T3 (attendus la semaine du 9 novembre, date à confirmer)"
+      "label": "Résultats T3 (9 novembre selon TIKR, date à confirmer)"
     },
     {
       "date": "2026-11-12",
@@ -229,21 +239,95 @@
   ],
   "articles": [
     {
-      "id": "midterms-space-1104",
+      "id": "rdw-q3-2026",
       "tickers": [
-        "SPCX",
-        "RKLB",
-        "ASTS",
+        "RDW"
+      ],
+      "score": 5,
+      "impact": "mix",
+      "date": "2026-11-04",
+      "title": "Redwire : chiffre d'affaires du T3 bien sous les attentes, mais carnet de commandes record et marges au plus haut",
+      "source": "Redwire (communiqué via StockTitan) · Stocktwits",
+      "url": "https://www.stocktitan.net/news/RDW/redwire-corporation-reports-third-quarter-2026-financial-results-jmzdaipmj0kp.html",
+      "summary": "Redwire a publié mercredi soir des comptes du T3 contrastés. Côté déception, le chiffre d'affaires ne progresse que de 5,4 % sur un an, à 109 M$, alors que le consensus visait environ 126,5 M$ : le groupe invoque un calendrier de facturation irrégulier. La consommation de trésorerie s'est aussi alourdie, avec un flux de trésorerie disponible de -66,4 M$ sur le trimestre (contre -27,8 M$ un an plus tôt), et l'Ebitda ajusté reste négatif à -5,3 M$ (R&D en hausse de 87 %). Côté positif, la marge brute grimpe à un record de 32,3 % (16,3 % un an plus tôt), la perte nette se réduit à 23,2 M$ (0,09 $ par action, un peu mieux que les 0,10 $ attendus) et le carnet de commandes atteint 619,7 M$, presque 75 % de plus qu'il y a un an, grâce à 188,7 M$ de prises de commandes (ratio commandes/facturation de 1,73). Parmi les contrats cités : 20 M$ de la DARPA et de nouvelles commandes de drones Stalker. La liquidité reste confortable à 538,9 M$, et l'objectif annuel de 450 à 500 M$ de chiffre d'affaires est maintenu. Le titre, déjà en recul de près de 5 % en séance avec le secteur spatial, cédait encore plus de 2 % dans les échanges de nuit.",
+      "why": "Le maintien de l'objectif annuel implique un quatrième trimestre très chargé : écoute la conférence de ce jeudi 15h (heure de Paris) pour savoir quels contrats doivent se convertir en chiffre d'affaires d'ici décembre. Surveille aussi la consommation de trésorerie, qui s'est nettement accélérée."
+    },
+    {
+      "id": "pltr-midterms-1104",
+      "tickers": [
+        "PLTR",
+        "ONDS",
         "RDW"
       ],
       "score": 4,
       "impact": "neg",
       "date": "2026-11-04",
-      "title": "Élections de mi-mandat : la poussée démocrate fait reculer SpaceX et les valeurs spatiales dans la nuit",
-      "source": "Stocktwits (via TradingView) · Bloomberg (via Bloomingbit)",
-      "url": "https://www.tradingview.com/news/stocktwits:4411032c3094b:0-midterm-election-impact-spcx-asts-rklb-stocks-sink-as-musk-s-political-ties-put-tesla-spacex-merger-under-fresh-scrutiny/",
-      "summary": "Les résultats des élections de mi-mandat américaines tombés dans la nuit ont pris le contre-pied du rebond de mardi. Les démocrates remportent le Sénat et sont donnés gagnants à la Chambre des représentants ; au Texas, James Talarico a battu Ken Paxton, une première victoire démocrate dans un scrutin à l'échelle de l'État depuis 1994. Les titres liés à Elon Musk, qui a dépensé environ 446 M$ pendant la campagne, surtout pour des groupes proches des républicains, ont été les premiers visés. SpaceX et Tesla cédaient environ 1,8 % après la clôture, et SpaceX, Rocket Lab, AST SpaceMobile, Redwire, Planet Labs et Intuitive Machines reculaient de 2 à 6 % dans les échanges de nuit. Les contrats à terme sur le Nasdaq perdaient 0,4 %. Le marché s'interroge sur un contrôle parlementaire plus serré, notamment sur un éventuel rapprochement Tesla-SpaceX, que les deux groupes étudient via des comités spéciaux. Un Congrès hostile ne peut pas interdire une fusion privée, mais il peut la compliquer. Prochain rendez-vous à surveiller : l'assemblée générale de Tesla le 3 décembre. Morgan Stanley rappelle qu'à 140 $, SpaceX se paie environ 17,6 fois les bénéfices estimés pour 2028, à peine moins que l'indice S&P 500.",
-      "why": "Ce sont des mouvements de nuit, à confirmer à l'ouverture de 15h30. Pour Redwire, ce recul précède immédiatement ses résultats de ce soir ; pour SpaceX, surveille tout signal sur le dossier Tesla et sur les budgets spatiaux et de défense."
+      "title": "Palantir chute jusqu'à 6 % en séance : majorité démocrate et budget du Pentagone revu à la baisse",
+      "source": "Motley Fool · Fiscal Times",
+      "url": "https://www.fool.com/investing/2026/11/04/why-palantir-technologies-stock-dropped-today/",
+      "summary": "Palantir a de nouveau reculé mercredi, pour une septième séance de baisse d'affilée selon GuruFocus, alors que Wall Street s'envolait après la victoire des démocrates au Congrès. Le titre a perdu plus de 6 % dans la première heure, touchant un plus bas vers 164,60 $, avant de réduire nettement ses pertes ; en fin de matinée à New York, il s'échangeait autour de 170 $, soit environ -3 %. Deux craintes se combinent. D'abord, un Congrès démocrate pourrait regarder de plus près les gros contrats de défense et de sécurité intérieure, alors que plus de la moitié du chiffre d'affaires de Palantir vient des administrations publiques. Ensuite, selon Politico, le Pentagone se prépare à présenter une demande budgétaire 2027 d'environ 1 100 milliards de dollars au lieu des 1 500 milliards évoqués par l'administration Trump, soit quelque 400 milliards de moins, ce qui menace des programmes comme le bouclier antimissile Golden Dome. Ce contexte pèse aussi sur les autres valeurs de défense suivies ici, comme Ondas ou Redwire. Les analystes restent pourtant positifs après les résultats du 2 novembre : Barclays a relevé son objectif à 273 $ (surpondérer) et Bank of America a réitéré son conseil d'achat avec 255 $.",
+      "why": "Le sujet n'est plus les résultats mais le budget fédéral : surveille la présentation de la demande budgétaire 2027 du Pentagone et les premières auditions du nouveau Congrès. La clôture exacte du 4 novembre n'a pas pu être vérifiée."
+    },
+    {
+      "id": "midterms-space-1104",
+      "tickers": [
+        "SPCX",
+        "RKLB",
+        "ASTS",
+        "RDW",
+        "PLTR"
+      ],
+      "score": 4,
+      "impact": "neg",
+      "date": "2026-11-04",
+      "title": "Élections de mi-mandat : SpaceX clôture en baisse de 3,8 %, Rocket Lab et AST reculent aussi, Morgan Stanley vise 300 $",
+      "source": "Motley Fool · Gotrade · Yahoo Finance · StockTitan",
+      "url": "https://www.fool.com/investing/2026/11/04/why-spacex-stock-is-down-today/",
+      "summary": "Les démocrates ont pris le Sénat et la Chambre des représentants, et les valeurs liées à Elon Musk, qui a massivement financé le camp républicain (dont plus de 200 M$ au seul Texas), ont subi toute la journée. SpaceX a clôturé à 135,92 $, en baisse de 3,81 %, après avoir oscillé entre 133,14 et 140,50 $ sur un volume très supérieur à la moyenne. Tesla a cédé 3,3 %, AST SpaceMobile 4,1 % à 35,62 $, Rocket Lab environ 3,4 % et Planet Labs près de 6 %, alors que le reste de Wall Street s'envolait : le Dow Jones a gagné 3 %, sa meilleure séance depuis avril 2025, le S&P 500 1,6 % et le Nasdaq 1,4 %. Le marché craint trois choses : un contrôle parlementaire plus serré des contrats de SpaceX avec la NASA et le Pentagone, un examen de sécurité nationale d'un éventuel rapprochement avec Tesla (aucun accord n'existe à ce stade), et un frein aux centres de données au Texas après la victoire de Gina Hinojosa sur le gouverneur sortant. À contre-courant, Morgan Stanley (Adam Jonas) vise 300 $ et avance à 2031 le retour à un flux de trésorerie positif. Seul vrai soutien du jour : le contrat 5G signé avec Qualcomm pour le réseau terrestre de Starlink Mobile.",
+      "why": "Le recul est politique, pas lié à l'activité : surveille les annonces de commissions d'enquête au Congrès et l'assemblée de Tesla du 3 décembre. Pour Rocket Lab et AST, les résultats du 9 novembre reprendront vite le dessus sur le bruit électoral."
+    },
+    {
+      "id": "spcx-qualcomm-5g",
+      "tickers": [
+        "SPCX",
+        "ASTS"
+      ],
+      "score": 4,
+      "impact": "mix",
+      "date": "2026-11-04",
+      "title": "SpaceX choisit Qualcomm pour bâtir un réseau mobile 5G terrestre aux États-Unis",
+      "source": "Reuters (via Investing.com) · Business Wire · The Next Web",
+      "url": "https://www.investing.com/news/stock-market-news/qualcomm-signs-major-5g-infrastructure-deal-with-spacex-for-starlink-mobile-network-4999443",
+      "summary": "SpaceX a signé un accord pluriannuel avec Qualcomm pour équiper le futur réseau 5G au sol de Starlink Mobile. Qualcomm fournira les équipements radio, les unités de traitement et le logiciel de plusieurs dizaines de milliers d'antennes réparties sur tout le territoire américain, avec un déploiement par étapes à partir de 2027 sur plusieurs bandes de fréquences. Le montant n'est pas communiqué, mais Qualcomm présente l'opération comme son plus gros contrat 5G à ce jour, et son action gagnait plus de 4 %. L'annonce confirme que SpaceX ne veut pas se limiter aux satellites qui parlent directement aux téléphones : le groupe prépare un véritable opérateur mobile capable de concurrencer AT&T, Verizon et T-Mobile, en s'appuyant sur les fréquences rachetées à EchoStar en 2025 et sur ses nouvelles acquisitions de spectre. Elle s'inscrit dans la suite des discussions rapportées lundi sur un éventuel rachat de Boost Mobile. Le marché n'a pas récompensé SpaceX pour autant : le titre reculait en pré-séance, l'effet des élections dominant. Pour AST SpaceMobile, qui mise sur des partenariats avec les opérateurs historiques plutôt que sur un réseau propre, c'est un concurrent de plus en plus complet qui se dessine.",
+      "why": "Pour SpaceX, c'est une diversification coûteuse qui pèsera sur les investissements avant de rapporter, pas avant 2027. Pour AST, surveille la réaction d'AT&T et Verizon, ses partenaires, face à ce nouvel entrant."
+    },
+    {
+      "id": "iren-texas-1104",
+      "tickers": [
+        "IREN"
+      ],
+      "score": 4,
+      "impact": "neg",
+      "date": "2026-11-04",
+      "title": "IREN chute d'environ 11 % : la victoire démocrate au Texas fait craindre un moratoire, Bernstein divise presque par deux son objectif",
+      "source": "CryptoProwl (via Yahoo Finance) · 24/7 Wall St. · The Crypto Basic",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bernstein-cuts-price-targets-seven-194100014.html",
+      "summary": "Le rebond de mardi (+11 % à 24,46 $) a été entièrement effacé. IREN a ouvert en baisse puis accéléré sa chute en séance, jusqu'à environ -11 % dans l'après-midi, avec tout le secteur des centres de données : CoreWeave -9 %, Cipher -20 %, Hut 8 -22 %. Déclencheur : au Texas, la démocrate Gina Hinojosa a battu le gouverneur Greg Abbott. Elle veut geler les nouvelles autorisations de centres de données tant que des règles ne protègent pas les habitants sur le coût de l'électricité et de l'eau. Elle ne prendra ses fonctions que le 19 janvier 2027, et Greg Abbott avait déjà suspendu les permis en septembre dans l'attente d'un audit du réseau. Mais l'enjeu est lourd : le Texas pèserait près de 30 % des capacités de centres de données prévues pour 2028, et IREN y concentre 2 750 MW avec Childress (750 MW) et Sweetwater (2 000 MW, dont 300 MW en construction pour fin 2027). Dans la foulée, Bernstein a abaissé ses objectifs sur sept mineurs de bitcoin reconvertis dans l'IA : pour IREN, 55 $ au lieu de 100 $, avec une opinion toujours positive. Goldman Sachs s'attend à des pauses temporaires au Texas, en Géorgie et dans le Michigan. Les résultats tombent demain soir.",
+      "why": "Demain soir, écoute ce que la direction dit des autorisations déjà obtenues à Sweetwater et Childress, en plus du financement et des contrats IA. Le nouvel objectif de Bernstein reste très au-dessus du cours, mais montre que le risque texan est désormais intégré par les analystes."
+    },
+    {
+      "id": "te-midterms-1104",
+      "tickers": [
+        "TE"
+      ],
+      "score": 3,
+      "impact": "pos",
+      "date": "2026-11-04",
+      "title": "T1 Energy grimpe encore d'environ 11 % : le solaire salue la victoire démocrate",
+      "source": "PV Tech · 24/7 Wall St. (via Yahoo Finance) · Investing.com",
+      "url": "https://www.pv-tech.org/solar-stocks-rise-democrat-victory-us-midterms/",
+      "summary": "Deuxième séance de forte hausse pour T1 Energy, qui gagnait environ 11 % mercredi, cette fois avec une explication claire : tout le secteur des énergies renouvelables s'envole après la prise du Congrès par les démocrates. First Solar progressait d'environ 9 % (Mizuho a relevé son objectif à 328 $), Canadian Solar et Sunrun de 7 %, Enphase de 4 % ; en Europe, Ørsted, Vestas, SMA Solar ou Voltalia montaient aussi de 5 à 7 %. Les investisseurs anticipent un soutien fédéral plus stable aux énergies propres, alors que l'administration Trump s'emploie depuis janvier à réduire les crédits d'impôt de la loi IRA au profit des énergies fossiles. Un Congrès démocrate ne peut pas tout défaire, puisque le président garde son droit de veto, mais il peut bloquer de nouveaux reculs et accélérer certaines autorisations de projets. Pour T1, fabricant américain de panneaux dont le modèle repose largement sur les crédits à la production locale, cela réduit un risque politique. La société a aussi bénéficié fin octobre d'une exemption sur les droits de douane visant le polysilicium. Le titre, tombé à 2,08 $ le 26 octobre, a désormais nettement rebondi, mais reste très loin de ses niveaux du printemps.",
+      "why": "Le soutien politique aide, mais le bilan (plus de 700 M$ de dette et de loyers) reste le vrai sujet. Les résultats du 12 novembre diront si la trajectoire de marge et le financement suivent."
     },
     {
       "id": "asts-att-handoff",
@@ -252,12 +336,12 @@
       ],
       "score": 3,
       "impact": "pos",
-      "date": "2026-11-03",
-      "title": "AST SpaceMobile rebondit de son plus bas sur 16 mois, AT&T réussit une bascule réseau terrestre-satellite",
-      "source": "Stocktwits · Via Satellite · Blockonomi · Business Wire",
-      "url": "https://stocktwits.com/news-articles/markets/equity/asts-stock-boost-mobile-founder-ast-pivot-fast-spacex-wireless-push/cNGQp1pR95b",
-      "summary": "Après sa pire séance depuis près de quatre mois lundi (-11 % à 36,33 $, plus bas sur 16 mois), AST SpaceMobile a regagné 2,3 % mardi pour clôturer à 37,15 $. Le titre a perdu environ la moitié de sa valeur depuis janvier. Côté opérationnel, AT&T a détaillé un test réalisé le 21 octobre près de Granite Falls, dans l'État de Washington : avec Ericsson et Nokia, l'opérateur a fait passer une connexion active du réseau mobile terrestre vers le réseau satellite d'AST sans intervention de l'utilisateur, une première revendiquée pour le secteur. Prochaines étapes annoncées : des essais bêta en conditions réelles, puis un déploiement commercial, sans calendrier précis. Le fondateur de Boost Mobile, Peter Adderton, qui dit avoir récemment acheté des actions, estime de son côté qu'AST doit changer de stratégie rapidement : selon lui, compter uniquement sur les grands opérateurs pour contrer SpaceX sera difficile, et la société devrait s'allier à des acteurs capables de bâtir une marque grand public. Ce débat intervient alors que SpaceX aurait discuté d'un rachat de Boost Mobile ou d'un accès au réseau d'EchoStar (7,4 millions d'abonnés mobiles). Dans la nuit, le titre reculait de nouveau avec les valeurs spatiales après les élections.",
-      "why": "Le test avec AT&T valide la technologie mais pas encore le calendrier commercial. Les résultats attendus la semaine prochaine et la date de lancement des prochains satellites restent les vrais juges."
+      "date": "2026-11-04",
+      "title": "AST SpaceMobile : AT&T et Rakuten avancent, mais le titre retombe avec le secteur spatial",
+      "source": "Light Reading · Stocktwits · Via Satellite · Business Wire",
+      "url": "https://www.lightreading.com/satellite/at-t-rakuten-tout-integration-with-starlink-rival-ast-spacemobile-for-d2d-services",
+      "summary": "Après sa pire séance depuis près de quatre mois lundi (-11 % à 36,33 $, plus bas sur 16 mois), AST SpaceMobile avait regagné 2,3 % mardi à 37,15 $, puis a reculé d'environ 3 à 4 % mercredi avec les valeurs spatiales, vers 36 $. Le titre a perdu environ la moitié de sa valeur depuis janvier. Côté opérationnel, les nouvelles sont plutôt bonnes. AT&T a détaillé un test réalisé le 21 octobre dans l'État de Washington : avec Ericsson côté opérateur et Nokia côté AST, une communication en cours est passée du réseau terrestre aux satellites d'AST sans intervention de l'utilisateur, une première revendiquée pour le secteur. Prochaine étape : une phase bêta, sans calendrier. Le japonais Rakuten vise un service commercial « prochainement », mais avec peu de satellites, la couverture se limite à quelques minutes par passage. AST compte 13 satellites en orbite et dit en attendre 45 début 2027, le nombre nécessaire à une couverture continue des États-Unis. En face, SpaceX prépare de nouveaux satellites pour un service commercial début 2028, et vient de signer avec Qualcomm pour un réseau 5G au sol. Le fondateur de Boost Mobile, actionnaire, plaide pour qu'AST s'allie aussi à des acteurs grand public.",
+      "why": "Le rythme des lancements vers 45 satellites début 2027 reste le juge de paix. Les résultats attendus autour du 9 novembre devraient préciser ce calendrier et l'état de la trésorerie."
     },
     {
       "id": "pltr-q3-2026",
@@ -328,20 +412,6 @@
       "url": "https://www.adyen.com/press-and-media/adyen-publishes-q3-2026-business-update-6r9vz0",
       "summary": "Le spécialiste néerlandais des paiements a publié une activité trimestrielle robuste. Son revenu net progresse de 23 %, à 738 M€, et le volume de paiements traité bondit de 30 %, à 451 Md€. L'objectif de croissance annuelle de 21 à 23 % est maintenu. La mauvaise surprise vient de la rentabilité. Adyen accélère ses investissements après les rachats de Talon.One et d'Orb et embauche massivement. Le groupe vise désormais une marge d'EBITDA de 50 % en 2026, contre 53 % en 2025. Il abandonne son objectif de marge à moyen terme pour garder de la flexibilité et porte ses investissements à environ 7 % du revenu cette année. Les nouveaux objectifs 2027 seront donnés en février. Résultat : -13,35 % le 28 octobre, à 818 €. Plusieurs banques ont abaissé leurs objectifs de cours (JPMorgan, BMO, TD Cowen, Evercore), tout en gardant des recommandations à l'achat. Loop Capital a même relevé sa note.",
       "why": "Le titre est tombé à son plus bas depuis un an (plancher sur 52 semaines vers 772 €). La question pour toi : crois-tu que ces investissements paieront en 2027-2028 ? Les objectifs de février seront le prochain rendez-vous clé."
-    },
-    {
-      "id": "rklb-neutron-2027",
-      "tickers": [
-        "RKLB"
-      ],
-      "score": 5,
-      "impact": "neg",
-      "date": "2026-10-14",
-      "title": "Rocket Lab repousse le premier vol de Neutron à 2027, puis le titre rebondit de 15 %",
-      "source": "Rocket Lab (communiqué) · Trefis · Finviz",
-      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-provides-update-neutron-development-and-adjusts",
-      "summary": "Le 14 octobre, Rocket Lab a officialisé le report du vol inaugural de sa fusée moyenne Neutron, attendu jusque-là au quatrième trimestre 2026, à l'année 2027. La direction avait préparé le terrain dès la publication du deuxième trimestre, mais l'annonce a coûté près de 8 % le jour même et encore plusieurs points le lendemain. Le titre est passé sous un support technique important, vers 54 $. Depuis, le mouvement s'est inversé. Rocket Lab a aligné cinq séances de hausse (+15 % cumulés) pour clôturer à 59,10 $ jeudi, porté par l'arrivée du second étage de Neutron sur le site de lancement et par la mise en avant d'un plan militaire de 515 M$ (8 satellites sur 18 en production). Le titre recule toutefois d'environ 6 % en avant-Bourse ce vendredi. Les résultats du troisième trimestre sont attendus vers le 9 novembre. L'objectif moyen des analystes reste proche de 100 $.",
-      "why": "Neutron est le cœur de la thèse à long terme. Chaque nouvelle date annoncée fera bouger le titre fortement. Aux résultats, regarde le carnet de commandes et le calendrier précis du premier vol."
     },
     {
       "id": "spcx-boost-mobile",
@@ -500,20 +570,6 @@
       "url": "https://www.globenewswire.com/news-release/2026/11/02/3393016/0/en/poet-technologies-names-giovanni-pacelli-cfo.html",
       "summary": "POET a nommé lundi Giovanni Pacelli au poste de directeur financier, avec effet immédiat. Il remplace Thomas Mika, en poste depuis dix ans, qui restera jusqu'au 2 décembre pour assurer la transition. Pacelli arrive de Silicon Labs, où il occupait un poste de direction financière et s'occupait notamment de planification stratégique et de relations investisseurs ; il a auparavant travaillé chez Freescale et NXP, dont il a accompagné la fusion. Il reçoit environ 385 000 actions gratuites acquises par tiers sur trois ans. Le président-directeur général Suresh Venkatesan a salué le rôle de Mika dans la transformation de POET en entreprise commerciale bien financée, ayant levé plus de 800 M$ au total. Autre élément utile pour toi : à partir des résultats annuels 2026, la société tiendra une conférence téléphonique chaque trimestre, ce qu'elle ne faisait pas systématiquement. Les résultats du troisième trimestre restent prévus le 16 novembre. Le titre, qui a perdu environ 30 % en octobre puis encore près de 8 % lundi (4,80 $), a regagné environ 7 % mardi vers 5,10 $, sans annonce particulière, dans une séance favorable aux valeurs de semi-conducteurs.",
       "why": "Un profil tourné vers les relations investisseurs et des conférences régulières devraient améliorer la visibilité. Le vrai test reste la publication du 16 novembre et la montée en puissance des ventes."
-    },
-    {
-      "id": "rdw-preview",
-      "tickers": [
-        "RDW"
-      ],
-      "score": 3,
-      "impact": "neu",
-      "date": "2026-11-02",
-      "title": "Redwire publie ce soir : perte réduite et croissance de 22 % attendues",
-      "source": "Redwire (communiqué) · MarketBeat · Investing.com",
-      "url": "https://rdw.com/newsroom/redwire-corporation-to-report-third-quarter-2026-results-on-november-4-2026/",
-      "summary": "Redwire publie son troisième trimestre ce mercredi 4 novembre après la clôture américaine, avec une conférence jeudi à 15h heure de Paris. Le consensus prévoit une perte d'environ 0,12 $ par action, contre 0,29 $ un an plus tôt, et un chiffre d'affaires de 126,5 M$, soit environ 22 % de croissance. Attention : la société n'a battu le consensus de bénéfice qu'une fois sur ses huit derniers trimestres. Le deuxième trimestre avait pourtant été encourageant : revenus de 117 M$, marge brute record de 27,8 %, carnet de commandes porté à 542 M$ et dette fortement réduite. B. Riley a réitéré son opinion à l'achat avant la publication. En Bourse, le titre a fini mardi à 8,12 $ (+3,7 %) mais reculait dans la nuit avec le secteur spatial après les élections ; il a perdu environ 30 % depuis fin juin, pénalisé par des pertes persistantes, une valorisation jugée élevée, une vente de titres par un administrateur et, fin octobre, des propos d'un dirigeant expliquant que certaines tactiques de drones efficaces en Ukraine ne fonctionnaient plus. Récemment, Redwire a aussi signé un protocole d'accord avec EnduroSat pour les infrastructures spatiales européennes.",
-      "why": "Le carnet de commandes et la trajectoire de marge compteront plus que la perte du trimestre. Attends-toi à un mouvement fort jeudi, dans un secteur spatial fragilisé par le résultat des élections."
     },
     {
       "id": "onds-orders",
